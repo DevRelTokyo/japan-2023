@@ -404,7 +404,7 @@
     $(function() {
         var eventCounter = $(".countdown");
         if (eventCounter.length) {
-            eventCounter.countdown("2022/06/01", function(e) {
+            eventCounter.countdown("2023/03/10", function(e) {
                 $(this).html(
                     e.strftime(
                         "<div class='countdown-section'><div><div class='countdown-number'>%m</div> <div class='countdown-unit'>Month%!m</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%n</div> <div class='countdown-unit'>Day%!n</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%H</div> <div class='countdown-unit'>Hour%!H</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%M</div> <div class='countdown-unit'>Minutes</div> </div></div><div class='countdown-section'><div><div class='countdown-number'>%S</div> <div class='countdown-unit'>Seconds</div> </div></div>"
