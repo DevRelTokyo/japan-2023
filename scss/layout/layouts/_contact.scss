@@ -1,0 +1,368 @@
+.contact-wrap-layout1 {
+    background-color: transparent;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    @media (max-width: 1199px) {
+        padding-top: 115px;
+        padding-bottom: 85px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 85px;
+        padding-bottom: 55px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 70px;
+        padding-bottom: 40px;
+    }
+}
+
+.contact-box-layout1 {
+    .figure-box {
+        margin-bottom: 30px;
+        img {
+            border-radius: 20px;
+        }
+    }
+    .content-box {
+        ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                position: relative;
+                z-index: 1;
+                padding-left: 15px;
+                margin-bottom: 15px;
+                &:before {
+                    position: absolute;
+                    content: "";
+                    height: 18px;
+                    width: 3px;
+                    background-color: $color_secondary;
+                    top: 5px;
+                    left: 0;
+                }
+                .address-title {
+                    color: #ffffff;
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                .address-description {
+                    color: #ffffff;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .form-area {
+        margin-bottom: 30px;
+        padding: 40px 50px;
+        background-color: #17102C;
+        border-radius: 20px;
+    }
+    .sub-title {
+        color: $color_secondary;
+        font-weight: 600;
+        font-size: 22px;
+        font-family: $font_title;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+    .title {
+        max-width: 400px;
+        width: 100%;
+        line-height: 1.4;
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff;
+        @media (max-width: 1199px) {
+            font-size: 36px;
+        }
+        @media (max-width: 991px) {
+            font-size: 34px;
+        }
+        @media (max-width: 767px) {
+            font-size: 32px;
+        }
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
+    }
+    form {
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-control {
+            border: 0;
+            border-bottom: 1px solid #535371;
+            background-color: transparent;
+            border-radius: 0;
+            color: #ffffff;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        input {
+            height: 45px;
+            padding: 5px 0;
+        }
+        textarea {
+            padding: 10px 0;
+        }
+    }
+
+    input.form-control::-webkit-input-placeholder,
+    textarea.form-control::-webkit-input-placeholder {
+        color: #9393ac;
+        font-family: $font_title;
+        font-size: 15px;
+    }
+    input.form-control::-moz-placeholder,
+    textarea.form-control::-moz-placeholder {
+        color: #9393ac;
+        font-family: $font_title;
+        font-size: 15px;
+    }
+    input.form-control:-moz-placeholder,
+    textarea.form-control:-moz-placeholder {
+        color: #9393ac;
+        font-family: $font_title;
+        font-size: 15px;
+    }
+    input.form-control:-ms-input-placeholder,
+    textarea.form-control:-ms-input-placeholder {
+        color: #9393ac;
+        font-family: $font_title;
+        font-size: 15px;
+    }
+}
+
+.contact-wrap-layout2 {
+    padding-top: 130px;
+    padding-bottom: 106px;
+    @media (max-width: 1199px) {
+        padding-top: 115px;
+        padding-bottom: 91px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 100px;
+        padding-bottom: 76px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 85px;
+        padding-bottom: 61px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 70px;
+        padding-bottom: 46px;
+    }
+}
+.contact-box-layout2 {
+    margin-bottom: 24px;
+    .content-box {
+        box-shadow: 0 4px 10px 0 rgba(#000000, 0.05);
+        background-color: #ffffff;
+        padding: 80px 50px 76px;
+        border-radius: 10px;
+        @media (max-width: 991px) {
+            padding: 70px 40px 75px;
+        }
+        @media (max-width: 767px) {                
+            padding: 60px 30px 65px;
+        }
+        .sub-title {
+            color: $color_primary;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: $font_title;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 40px;
+            @media (max-width: 1199px) {                
+                font-size: 36px;
+            }
+            @media (max-width: 991px) {
+                font-size: 34px;               
+            }
+            @media (max-width: 767px) {                
+                font-size: 32px;
+            }
+            @media (max-width: 575px) {                
+                font-size: 30px;
+            }
+        }
+        .social {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin-right: 5px;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                a {
+                    border-radius: 50%;
+                    color: #BABBBC;
+                    border: 1px solid #B1B1B1;
+                    height: 44px;
+                    width: 44px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: transparent;
+                    transition: all 0.3s ease-in-out;
+                    &:hover {
+                        color: #ffffff;
+                    }
+                }
+                .facebook {
+                    &:hover {
+                        background-color: $color_facebook;
+                        border-color: $color_facebook;
+                    }
+                }
+                .twitter {
+                    &:hover {
+                        background-color: $color_twitter;
+                        border-color: $color_twitter;
+                    }
+                }
+                .linkedin {
+                    &:hover {
+                        background-color: $color_linkedin;
+                        border-color: $color_linkedin;
+                    }
+                }
+                .instagram {
+                    &:hover {
+                        background-color: $color_instagram;
+                        border-color: $color_instagram;
+                    }
+                }
+                .pinterest {
+                    &:hover {
+                        background-color: $color_pinterest;
+                        border-color: $color_pinterest;
+                    }
+                }
+            }
+        }
+    }
+    .contact-form {
+        box-shadow: 0 4px 10px 0 rgba(#000000, 0.05);
+        padding: 40px;
+        background-color: #ffffff;
+        @media (max-width: 767px) {                
+            padding: 30px;
+        }
+        .form-group {
+            margin-bottom: 24px;
+            input {
+                height: 60px;
+                padding: 5px 20px;
+            }
+            textarea {
+                padding: 20px;
+            }
+            .form-control {
+                background-color: #F6F6F6;
+                border: 1px solid #F6F6F6;
+                &:focus {
+                    box-shadow: none;
+                }           
+            } 
+        }
+        input.form-control::-webkit-input-placeholder,
+        textarea.form-control::-webkit-input-placeholder {
+            color: #5A5A5A;
+        }
+
+        input.form-control::-moz-placeholder,
+        textarea.form-control::-moz-placeholder {
+            color: #5A5A5A;
+        }
+
+        input.form-control:-moz-placeholder,
+        textarea.form-control:-moz-placeholder {
+            color: #5A5A5A;
+        }
+
+        input.form-control:-ms-input-placeholder,
+        textarea.form-control:-ms-input-placeholder {
+            color: #5A5A5A;
+        }
+    }
+    .address-box {
+        padding: 65px 25px;
+        text-align: center;
+        border-radius: 10px;
+        @media (max-width: 991px) {                
+            padding: 55px 20px;
+        } 
+        @media (max-width: 767px) {                
+            padding: 45px 15px;
+        }
+        .icon-box {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width: 991px) { 
+                transform: scale(0.8);
+            } 
+            @media (max-width: 767px) {   
+                transform: scale(0.7);
+            }
+        }
+        .title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            @media (max-width: 991px) {                
+                font-size: 24px;
+            } 
+            @media (max-width: 767px) {                
+                font-size: 22px;
+            }
+        }
+        .address-details {
+            list-style: none;
+            li {
+                margin-bottom: 3px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &.color-one {
+            background-color: #F3F5FD;
+            .icon-box {
+                path {
+                    fill: $color_primary;
+                }
+            }
+        }
+        &.color-two {
+            background-color: #FFF0F2;
+            .icon-box {
+                path {
+                    fill: $color_secondary;
+                }
+            }
+        }
+        &.color-three {
+            background-color: #F5F4E8;
+            .icon-box {
+                path {
+                    fill: #E7AC15;
+                }
+            }
+        }
+    }
+}

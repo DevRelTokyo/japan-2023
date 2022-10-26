@@ -1,0 +1,97 @@
+.facility-wrap-layout1 {
+    background-color: #F9FAFC;
+    position: relative;
+    z-index: 0;
+    padding-top: 122px;
+    padding-bottom: 100px;
+    @media (max-width: 1199px) {
+        padding-top: 107px;
+        padding-bottom: 85px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 92px;
+        padding-bottom: 70px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 77px;
+        padding-bottom: 55px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 62px;
+        padding-bottom: 40px;
+    }
+    &.has-animation {
+        .animated-shap {           
+            svg {
+                position: absolute;
+                z-index: -1;
+                top: 190px;
+                left: 50%;
+                transform: translateX(-50%);
+                right: 0;
+            }
+            .dashed1 {
+                stroke-dashoffset: 2010;
+                stroke-dasharray: 2010;
+            }
+            .dashed2 {
+                stroke-dasharray: 4;
+            }
+            .end-point {
+                position: absolute;
+                right: calc((100% - 1770px) / 2);
+                bottom: 160px;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateX(-50px) translateY(-30px);
+                transition: all 0.3s ease-in-out;
+                transition-delay: 2s;
+            }
+            @media (max-width: 1800px) {
+                display: none;
+            }
+        }
+        @-webkit-keyframes dash_animation {
+            to {
+               stroke-dashoffset: 0;
+            }
+        }
+          
+        @keyframes dash_animation {
+            to {
+               stroke-dashoffset: 0;
+            }
+        }
+          
+        &.active-animation {
+            .animated-shap {
+                .dashed1 {
+                    animation: dash_animation 1s linear forwards;
+                    animation-delay: 1s;
+                }
+                .end-point {
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateX(0) translateY(0);
+                }
+            }
+        }
+    }   
+}
+.facility-box-layout1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 30px 55px;
+    text-align: center;
+    margin-bottom: 30px;
+    .icon-box {
+        margin-bottom: 15px;
+        path {
+            fill: $color_secondary;
+        }
+    }
+    .title {
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+}

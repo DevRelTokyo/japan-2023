@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: $font_body;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.7;
+    vertical-align: baseline;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: $color_body;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0 0 20px 0;
+    color: #646464;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    font-family: $font_title;
+    margin: 0 0 20px 0;
+    color: $color_title;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 40px;
+    @media (max-width: 991px) {
+        font-size: 36px;
+    }
+    @media (max-width: 767px) {
+        font-size: 34px;
+    }
+    @media (max-width: 575px) {
+        font-size: 32px;
+    }
+}
+
+h2 {
+    font-size: 30px;
+    @media (max-width: 991px) {
+        font-size: 28px;
+    }
+    @media (max-width: 767px) {
+        font-size: 26px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+}

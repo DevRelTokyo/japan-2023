@@ -1,0 +1,66 @@
+.error-wrap-layout1 {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 991px) {
+        min-height: calc(100vh - 58px);
+    }
+}
+
+.error-box-layout1 {
+    text-align: center;
+    .sub-title {
+        font-family: $font_title;
+        font-weight: 600;
+        font-size: 30px;
+        color: $color_secondary;
+        @media (max-width: 991px) {
+            font-size: 26px;
+        }
+        @media (max-width: 767px) {
+            font-size: 24px;
+        }
+        @media (max-width: 575px) {
+            font-size: 22px;
+        }
+    }
+    .main-title {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 95px;
+        margin-bottom: 0;
+        @media (max-width: 1199px) {
+            font-size: 80px;
+        }
+        @media (max-width: 991px) {
+            font-size: 60px;
+        }
+        @media (max-width: 767px) {
+            font-size: 50px;
+        }
+        @media (max-width: 575px) {
+            font-size: 40px;
+        }
+    }
+    .title {
+        font-size: 48px;
+        font-weight: 700;
+        color: #ffffff;
+        @media (max-width: 1199px) {
+            font-size: 42px;
+        }
+        @media (max-width: 991px) {
+            font-size: 36px;
+        }
+        @media (max-width: 767px) {
+            font-size: 34px;
+        }
+        @media (max-width: 575px) {
+            font-size: 32px;
+        }
+    }
+}

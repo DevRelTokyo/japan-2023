@@ -1,0 +1,185 @@
+.gallery-wrap-layout1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.gallery-box-layout1 {
+    position: relative;
+    z-index: 1;    
+    overflow: hidden;  
+    &:before {
+        content: "";
+        background-color: $color_primary;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 0;
+    }
+    a {
+        display: block;
+        img {
+            transform: scale(1);
+            opacity: 1;
+            transition: all 0.5s cubic-bezier(0.23, 0.03, 0, 1.08);
+        }
+    }
+    &:hover {
+        a {
+            img {
+                transform: scale(1.2);
+                opacity: 0.8;
+            }
+        }
+    }
+    &.has-animation {
+        &:before {
+            clip-path: inset(0 100% 0 0);
+        }
+        img {
+            clip-path: inset(0 100% 0 0);
+        }
+    }
+    &.has-animation.active-animation {
+        &:before {
+            clip-path: inset(0 0 0 0);
+            transition: 1s cubic-bezier(.45,.05,.15,.93) .15s;
+        }
+        img {
+            clip-path: inset(0 0 0 0);
+            transition: 1s cubic-bezier(.45,.05,.15,.93) .15s;
+        }
+    }
+}
+
+.gallery-wrap-layout2 {
+    padding-top: 122px;
+    padding-bottom: 106px;
+    @media (max-width: 1199px) {
+        padding-top: 107px;
+        padding-bottom: 91px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 92px;
+        padding-bottom: 76px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 77px;
+        padding-bottom: 61px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 62px;
+        padding-bottom: 46px;
+    }
+}
+.gallery-box-layout2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000000;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    a {
+        display: block;
+        img {
+            border-radius: 10px;
+            transform: scale(1);
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &:hover {
+        &:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        a {
+            img {
+                transform: scale(1.2);
+                opacity: 0.8;
+            }
+        }
+    }
+    &.has-animation {
+        img {
+            clip-path: inset(0 100% 0 0);
+        }
+    }
+    &.has-animation.active-animation {
+        img {
+            clip-path: inset(0 0 0 0);
+            transition: 1s cubic-bezier(.45,.05,.15,.93) .15s;
+        }
+    }
+}
+
+.gallery-wrap-layout3 {
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+
+.gallery-box-layout3 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #000000;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease-in-out;
+    }
+    a {
+        display: block;
+        img {
+            border-radius: 10px;
+            transform: scale(1);
+            opacity: 1;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    &:hover {
+        &:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        a {
+            img {
+                transform: scale(1.05);
+                opacity: 0.8;
+            }
+        }
+    }
+    &.has-animation {
+        img {
+            clip-path: inset(0 100% 0 0);
+        }
+    }
+    &.has-animation.active-animation {
+        img {
+            clip-path: inset(0 0 0 0);
+            transition: 1s cubic-bezier(.45,.05,.15,.93) .15s;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.brand-wrap-layout1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    @media (max-width: 1199px) {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba($color_primary, 0.75);
+    }
+}
+
+.brand-box-layout1 {
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.brand-wrap-layout2 {
+    border-bottom: 1px solid #3f3f3f;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.brand-box-layout2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.brand-wrap-layout3 {
+    background-color: transparent;
+    padding-top: 92px;
+    padding-bottom: 0;
+    @media (max-width: 1199px) {
+        padding-top: 77px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 62px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 47px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 32px;
+    }
+    .inner-wrap {
+        border: 1px solid #535371;
+        border-radius: 20px;
+        padding: 50px 50px 20px;
+    }
+}
+
+.brand-box-layout3 {
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.brand-wrap-layout4 {
+    background-color: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    @media (max-width: 1199px) {
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+    @media (max-width: 991px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    @media (max-width: 575px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+.brand-box-layout4 {
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 15px;
+    img {
+        filter: grayscale(100%);
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+        img {
+            filter: grayscale(0);
+        }
+    }
+}

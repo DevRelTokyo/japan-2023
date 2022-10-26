@@ -1,0 +1,158 @@
+.newsletter-wrap-layout1 {
+    padding: 0;
+    position: relative;
+    &:after {
+        content: "";
+        height: 50%;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        background-color: #0E1C41;
+    }
+}
+
+.newsletter-box-layout1 {
+    background-color: $color_secondary;
+    border-radius: 0px 106px 0px 128px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    @media (max-width: 575px) {
+        border-radius: 0px 45px;
+    }
+    .shape-box {
+        position: absolute;
+        left: 60px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.5s ease-in-out;
+        transition-delay: 0.2s;
+        svg {
+            fill: rgba(#ffffff, 0.25);
+        }
+    }
+    .sub-title {
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffffff;
+        font-family: $font_title;
+    }
+    .title {
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        @media (max-width: 1199px) {
+            font-size: 36px;
+        }
+        @media (max-width: 991px) {
+            font-size: 34px;
+        }
+        @media (max-width: 767px) {
+            font-size: 32px;
+        }
+        @media (max-width: 575px) {
+            font-size: 30px;
+        }
+    }    
+    @media (max-width: 991px) {
+        .newsletter-form {
+            height: 110px;
+        }
+    }
+    .newsletter-form {
+        width: 100%;
+        max-width: 540px;
+        display: inline-block;
+        .stylish-input-group {
+            background: #ffffff;
+            padding: 5px;
+            border: 0;
+            height: 65px;
+            border-radius: 45px;
+            @media (max-width: 575px) {
+                display: block;
+                padding: 0;
+                height: 55px;
+            }
+            input.form-control::-webkit-input-placeholder,
+            textarea.form-control::-webkit-input-placeholder {
+                color: #5A5A5A;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            input.form-control::-moz-placeholder,
+            textarea.form-control::-moz-placeholder {
+                color: #5A5A5A;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            input.form-control:-moz-placeholder,
+            textarea.form-control:-moz-placeholder {
+                color: #5A5A5A;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+
+            input.form-control:-ms-input-placeholder,
+            textarea.form-control:-ms-input-placeholder {
+                color: #5A5A5A;
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
+        }
+        .form-control {
+            padding: 5px 5px 5px 30px;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-radius: 45px;
+            background: #ffffff;
+            color: #111111;
+            height: 100%;
+            margin-bottom: 0;
+            @media (max-width: 575px) {
+                margin-bottom: 5px;
+                width: 100%;
+                border-radius: 45px!important;
+                padding: 5px 30px;
+            }
+        }
+        .input-group-addon {
+            margin-left: 0!important;
+            button {
+                border: none;
+                border-radius: 45px;
+                background: $color_primary;
+                margin-bottom: 0;
+                display: block;
+                padding: 0 27px;
+                height: 55px;
+                color: #ffffff;
+                font-weight: 700;
+                font-size: 18px;
+                font-family: $font_title;
+                letter-spacing: 1px;
+                transition: all 0.3s ease-in-out;
+                &:hover {
+                    background-color: $color_secondary;
+                }
+                @media (max-width: 575px) {
+                    width: 100%;
+                    &:hover {
+                        background-color: #ffffff;
+                        color: $color_primary;
+                    }
+                }
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
