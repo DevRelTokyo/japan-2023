@@ -24,6 +24,9 @@ $(async () => {
 		localStorage.setItem('form_2', JSON.stringify(form2));
 		restore();
 	}
+	$('#addSpeaker').on('click', () => {
+		$('.co-speaker').show();
+	});
 	$('form#cfp').on('submit', async (e) => {
 		e.preventDefault();
 		const form = $(e.target);
@@ -38,6 +41,7 @@ $(async () => {
 		if (proposal.objectId) {
 			await proposal.update();
 		} else {
+
 			await proposal.save();
 		}
 		const message = proposal.objectId ? '更新しました' : '送信しました';
@@ -83,6 +87,9 @@ const restore = () => {
 		values = JSON.parse(values);
 		for (const key in values) {
 			const input = $(`[name="${key}"]`);
+			if (key.indexOf('co_') !== -1 && values[key] !== '') {
+				$('.co-speaker').show();
+			}
 			if (input.attr('type') === 'checkbox' || input.attr('type') === 'radio') {
 				input.val([values[key]]);
 			} else {

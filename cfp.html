@@ -143,6 +143,66 @@ permalink: /cfp/
 									</div>
 								</div>
 								<div class="mb-3">
+									<h3>共同スピーカー</h3>
+								</div>
+								<div class="mb-3">
+									<p>一緒に登壇する方がいますか？いる場合は下記ボタンを押して、登壇者情報を追加してください。1セッション上限2名で登壇できます。</p>
+									<button class="btn btn-success" type="button" id="addSpeaker">共同スピーカーを追加</button>
+								</div>
+								<div class="co-speaker" style="display:none">
+									<div class="mb-3">
+										<label for="company" class="form-label">主な所属企業・団体<sup style="color:red">*</sup></label>
+										<input type="text" name="co_company" data-save="2" class="form-control" required>
+										<div id="companyHelp" class="form-text">1つのみ記述してください</div>
+									</div>
+									<div class="mb-3">
+										<label for="title" class="form-label">主な肩書き</label>
+										<input type="text" name="co_title" data-save="2" class="form-control">
+										<div id="titleHelp" class="form-text">1つのみ記述してください</div>
+									</div>
+									<div class="mb-3">
+										<label for="name" class="form-label">お名前<sup style="color:red">*</sup></label>
+										<input type="text" name="co_name" data-save="2" class="form-control" required>
+										<div id="nameHelp" class="form-text">日本語のみ</div>
+									</div>
+									<div class="mb-3">
+										<label for="email" class="form-label">メールアドレス<sup style="color:red">*</sup></label>
+										<input type="email" name="co_email" data-save="2" class="form-control" required>
+										<div id="emailHelp" class="form-text">確実に受け取れるものを入力してください</div>
+									</div>
+									<div class="mb-3">
+										<label for="profile" class="form-label">プロフィール<sup style="color:red">*</sup></label>
+										<textarea name="co_profile" data-save="2" class="form-control" rows="3" required></textarea>
+									</div>
+									<div class="mb-3">
+										<h3>ソーシャルアカウント</h3>
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://twitter.com/</span>
+										<input type="text" name="co_twitter" data-save="2" class="form-control">
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://facebook.com/</span>
+										<input type="text" name="co_facebook" data-save="2" class="form-control">
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://github.com/</span>
+										<input type="text" name="co_github" data-save="2" class="form-control">
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://www.linkedin.com/in/</span>
+										<input type="text" name="co_linkedin" data-save="2" class="form-control">
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://www.youtube.com/channel/</span>
+										<input type="text" name="co_youtube" data-save="2" class="form-control">
+									</div>
+									<div class="mb-3 input-group">
+										<span class="input-group-text" id="basic-addon3">https://www.instagram.com/</span>
+										<input type="text" name="co_instagram" data-save="2" class="form-control">
+									</div>
+								</div>
+								<div class="mb-3">
 									<h3>確認事項</h3>
 								</div>
 								<div class="form-check">
