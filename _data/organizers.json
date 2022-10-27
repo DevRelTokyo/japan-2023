@@ -177,7 +177,7 @@
     "github": "https://github.com/RyogaCloud",
     "facebook": "https://www.facebook.com/ryoga.takao/",
     "linkedin": "",
-    "profile_ja": "ハッカソンを愛してやまない新卒2年目のフルスタックエンジニア",
+    "profile_ja": "日本アイ・ビー・エム株式会社 ITスペシャリスト。クラウドを中心に扱い、ハッカソンを愛してやまない新卒2年目のフルスタックエンジニア。",
     "company": "",
     "": ""
   },
@@ -219,7 +219,7 @@
     "github": "",
     "facebook": "",
     "linkedin": "",
-    "profile_ja": "株式会社CARTA HOLDINGSの中の人。デジタル広告業界にて頑張る年子育児エンジニア。得意料理は沸騰。",
+    "profile_ja": "株式会社CARTA HOLDINGS(カルタホールディングス)の中の人。デジタル広告業界にて奮闘する年子育児エンジニア。最近は行政で未来社会の研究員やったりSRE NEXT運営やったりしてました。得意料理は沸騰。",
     "company": "CARTA HOLDINGS",
     "": ""
   },
@@ -248,34 +248,6 @@
     "facebook": "https://www.facebook.com/suguru.ohishi.96",
     "linkedin": "https://www.linkedin.com/in/%E8%8B%B1-%E5%A4%A7%E7%9F%B3-2b8975139/",
     "profile_ja": "アイレット株式会社で（主に親会社向け）データ分析基盤構築のチームリーダーをしています。",
-    "company": "",
-    "": ""
-  },
-  {
-    "id": "canonno",
-    "type": "member",
-    "name": "賀野 壮一朗",
-    "title": "エンジニア",
-    "url": "",
-    "twitter": "https://twitter.com/canonno_blog",
-    "github": "https://github.com/canonno",
-    "facebook": "https://www.facebook.com/souichirou.kano/",
-    "linkedin": "https://www.linkedin.com/in/soichiro-kano-818b5a248/",
-    "profile_ja": "サントリーホールディングスにてデジマケ領域のIT関連何でも屋さんをやってます。最近新たに社内のコミュニティマネージャ屋さん始めました。ストリートピアノをこよなく愛してます。",
-    "company": "",
-    "": ""
-  },
-  {
-    "id": "kamimi",
-    "type": "member",
-    "name": "浦川 美佳",
-    "title": "iOSエンジニア",
-    "url": "https://note.com/kamimi01",
-    "twitter": "https://twitter.com/kamimi_01",
-    "github": "https://github.com/kamimi01",
-    "facebook": "",
-    "linkedin": "https://www.linkedin.com/in/mkurakawa/",
-    "profile_ja": "IBMでモバイルアプリを中心とした案件に4年間従事。その後ヤプリにiOSエンジニアとして2022年4月に入社し、iOSエンジニアとして働いています。海と文章を書くことが好きです。",
     "company": "",
     "": ""
   },

@@ -1,0 +1,12 @@
+<section class="speaker-wrap-layout4">
+  <div class="container">
+    <div class="section-heading style-two">
+			<h2 class="title">運営メンバー</h2>
+    </div>
+    <div class="row">
+      {% for organizer in site.data.organizers %}
+        {% include organizer.html organizer=organizer %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
