@@ -2,6 +2,7 @@ require('json')
 json = JSON.parse(open('./_data/organizers.json').read)
 
 json.each do |organizer|
+	next if organizer['type'] == 'group'
   content = <<-EOS
 ---
 layout: person
