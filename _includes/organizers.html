@@ -3,51 +3,9 @@
     <div class="section-heading style-two">
 			<h2 class="title">運営メンバー</h2>
     </div>
-    <div class="row masonry-items">
+    <div class="row">
       {% for organizer in site.data.organizers %}
-      <div class="col-lg-4 col-md-6 col-12 masonry-item wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="1s">
-        <div class="speaker-box-layout4 color-one">
-          {% assign file_exists = or | where: "path", path  %}
-          <div class="figure-box">
-            {% capture photo_exists %}{% file_exists /image/organizers/{{ organizer.id }}.jpg %}{% endcapture %}
-            {% if photo_exists == "true" %}
-            <img src="/japan-2023/image/organizers/{{ organizer.id }}.jpg" alt="Speaker" width="400" height="400">
-            {% endif %}
-          </div>
-          <div class="content-box">
-            <h3 class="title"><a href="speaker-single.html">{{ organizer.name }} {% if organizer.title %}/ {{ organizer.title }}{% endif %}</a></h3>
-            <div class="sub-title">{{ organizer.profile_ja }}</div>
-          </div>
-          <div class="speaker-social">
-            <ul>
-              {% if organizer.github != "" %}
-              <li class="github">
-                <a target="_blank" href="{{ organizer.github }}"><i
-                                  class="fab fa-github"></i></a>
-              </li>
-              {% endif %}
-              {% if organizer.twitter != ""  %}
-              <li class="twitter">
-                <a target="_blank" href="{{ organizer.twitter }}"><i
-                                  class="fab fa-twitter"></i></a>
-              </li>
-              {% endif %}
-              {% if organizer.facebook != ""  %}
-              <li class="facebook">
-                <a target="_blank" href="{{ organizer.facebook }}"><i
-                                  class="fab fa-facebook-f"></i></a>
-              </li>
-              {% endif %}
-              {% if organizer.linkedin != ""  %}
-              <li class="linkedin">
-                <a target="_blank" href="{{ organizer.linkedin }}"><i
-                                  class="fab fa-linkedin-in"></i></a>
-              </li>
-              {% endif %}
-            </ul>
-          </div>
-        </div>
-      </div>
+        {% include organizer.html organizer=organizer %}
       {% endfor %}
     </div>
   </div>

@@ -1,0 +1,38 @@
+{% assign organizer = include.organizer %}
+<div class="col-lg-3 col-sm-6 col-12 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.3s">
+	<div class="speaker-box-layout2">
+		<div class="figure-box">
+			<img src="{{ site.baseurl }}/image/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name }}" width="400" height="400" />
+		</div>
+		<div class="content-box">
+			<h3 class="title"><a href="{{ site.baseurl }}/organizers/{{ organizer.id }}/">{{ organizer.name }}</a></h3>
+			<div class="sub-title">
+				{% if organizer.title != "" %}{{ organizer.title }}{% endif %}{% if organizer.company != "" %}@{{ organizer.company }}{% endif %}
+			</div>
+			<div class="speaker-social">
+				<ul>
+					{% if organizer.facebook != "" %}
+					<li class="facebook">
+						<a target="_blank" href="{{ organizer.facebook }}"><i	class="fab fa-facebook-f"></i></a>
+					</li>
+					{% endif %}
+					{% if organizer.twitter != "" %}
+					<li class="twitter">
+						<a target="_blank" href="{{ organizer.twitter }}"><i class="fab fa-twitter"></i></a>
+					</li>
+					{% endif %}
+					{% if organizer.github != "" %}
+					<li class="instagram">
+						<a target="_blank" href="{{ organizer.github }}"><i	class="fab fa-github"></i></a>
+					</li>
+					{% endif %}
+					{% if organizer.linkedin != "" %}
+					<li class="linkedin">
+						<a target="_blank" href="{{ organizer.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+					</li>
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
