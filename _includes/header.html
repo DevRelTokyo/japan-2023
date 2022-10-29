@@ -6,8 +6,12 @@
 				<div class="inner-wrap">
 					<div class="d-flex align-items-center justify-content-between">
 						<div class="site-branding">
-							<a href="index.html" class="logo logo-light"><img src="{{ site.baseurl }}/image/logo-dark.svg" alt="Logo" width="200" height="37"></a>
-							<a href="index.html" class="logo logo-dark"><img src="{{ site.baseurl }}/image/logo-dark.svg" alt="Logo" width="200" height="37"></a>
+							<a href="{{ site.baseurl }}/" class="logo logo-light">
+								<img src="{{ site.baseurl }}/image/logo-dark.svg" alt="Logo" width="200" height="37">
+							</a>
+							<a href="{{ site.baseurl }}/" class="logo logo-dark">
+								<img src="{{ site.baseurl }}/image/logo-dark.svg" alt="Logo" width="200" height="37">
+							</a>
 						</div>
 						<nav id="dropdown" class="template-main-menu menu-text-dark">
 							<ul class="menu">
@@ -15,26 +19,28 @@
 									<a href="{{ site.baseurl }}/">ホーム</a>
 								</li>
 								<li class="menu-item menu-item-has-children mega-menu mega-menu-col-2">
-									<a href="about.html">アバウト</a>
+									<a href="{{ site.baseurl }}/#about">アバウト</a>
 								</li>
 								<li class="menu-item menu-item-has-children">
-									<a href="speaker.html">スケジュール</a>
+									<a href="{{ site.baseurl }}/#schedule">スケジュール</a>
 								</li>
 								<li class="menu-item menu-item-has-children">
-									<a href="schedule1.html">スポンサー</a>
+									<a href="{{ site.baseurl }}/#sponsor">スポンサー</a>
 								</li>
 								<li class="menu-item menu-item-has-children">
-									<a href="blog-grid.html">会場</a>
+									<a href="{{ site.baseurl }}/#venue">会場</a>
 								</li>
 								<li class="menu-item menu-item-has-children">
-									<a href="blog-grid.html">運営</a>
+									<a href="{{ site.baseurl }}/#organizer">運営</a>
 								</li>
 								<li class="menu-item menu-item-has-children">
-									<a href="blog-grid.html">ブログ</a>
+									<a href="{{ site.baseurl }}/#blog">ブログ</a>
 								</li>
 							</ul>
 						</nav>
+						
 						<ul class="header-action-items">
+							<!--
 							<li class="search-wrap">
 								<a href="#template-search" title="Search">
 									<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,8 +48,9 @@
 									</svg>
 								</a>
 							</li>
+							-->
 							<li class="header-action-item d-none d-xl-block">
-								<a href="pricing.html" class="item-btn btn-fill style-one">チケット購入</a>
+								<a href="{{ site.baseurl }}/#ticket" class="item-btn btn-fill style-one">チケット購入</a>
 							</li>
 							<li class="header-action-item">
 								<button type="button" class="offcanvas-menu-btn style-one menu-status-open">

@@ -5,9 +5,15 @@
 			<img src="{{ site.baseurl }}/image/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name }}" width="400" height="400" />
 		</div>
 		<div class="content-box">
-			<h3 class="title"><a href="{{ site.baseurl }}/organizers/{{ organizer.id }}/">{{ organizer.name }}</a></h3>
+			<h3 class="title">
+				{% if organizer.type == "member" %}
+					<a href="{{ site.baseurl }}/organizers/{{ organizer.id }}/">{{ organizer.name }}</a>
+				{% else %}
+					{{ organizer.name }}
+				{% endif %}
+			</h3>
 			<div class="sub-title">
-				{% if organizer.title != "" %}{{ organizer.title }}{% endif %}{% if organizer.company != "" %}@{{ organizer.company }}{% endif %}
+				{% if organizer.title != "" %}{{ organizer.title }}{% if organizer.company != "" %}@{% endif %}{% endif %}{% if organizer.company != "" %}{{ organizer.company }}{% endif %}
 			</div>
 			<div class="speaker-social">
 				<ul>
