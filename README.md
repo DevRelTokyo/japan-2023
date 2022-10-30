@@ -16,4 +16,9 @@ bundle install
 bundle exec jekyll serve
 ```
 
+## Generate OGP
+
+```
+npx ts-node index.ts
+```
 

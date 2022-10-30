@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include head.html %}
+	<body>
+		<!-- Add your site or application content here -->
+		<div class="wrapper" id="wrapper">
+			{% include preloader.html %}
+			<div id="main_content">
+				<!--=====================================-->
+				<!--=            Navbar Start           =-->
+				<!--=====================================-->
+				{% include header.html %}
+				{% include menu.html %}
+				<section class="inner-page-banner inner-banner-8" data-bg-image="{{ page.ogp }}">
+					<div class="container">
+						<div class="entry-banner-content">
+							<div class="breadcrumb-area">
+								<div class="entry-breadcrumb">
+									<span>
+										<a href="{{ site.baseurl }}/" class="home">ホーム</a>
+									</span>
+									<em class="delimiter">/</em>
+									<span class="current">
+										{% if page.type == 'organizer' %}
+										運営
+										{% else %}
+										スピーカー
+										{% endif %}
+									</span>
+								</div>
+							</div>
+							<h1 class="entry-title">
+								{{ page.title }}
+							</h1>
+						</div>
+					</div>
+				</section>
+				<!--=====================================-->
+				<!--=     Inne Page Banner Area End     =-->
+				<!--=====================================-->
+				<!--=====================================-->
+				<!--= Speaker Single Section Area Start =-->
+				<!--=====================================-->
+				{% assign people = site.data.organizers | where: 'id', page.id %}
+				{% assign person = people[0] %}
+				<section class="speaker-single-wrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-2 col-12">
+								<div class="speaker-single-box">
+									<div class="figure-box wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
+										<img src="{{ site.baseurl }}/image/organizers/{{ person.id }}.jpg" alt="{{ person.name }}">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-10 col-12">
+								<div class="speaker-single-box">
+									<div class="content-box wow fadeInRight animated" data-wow-delay="0.3s" data-wow-duration="1s">
+										<div>
+											<h2 class="title">{{ person.name }}</h2>
+											<div class="sub-title">
+												{% if person.company != "" and person.title != "" %}
+												{{ person.title }}@{{ person.company }}
+												{% elsif person.company != "" %}
+													{{ person.company }}
+												{% elsif person.title != "" %}
+													{{ person.title }}
+												{% endif %}
+											</div>
+											<p class="description">
+												{{ content | markdownify }}
+											</p>
+											<ul class="social">
+												{% if person.twitter != "" %}
+													<li>
+														<a target="_blank" href="{{ person.twitter }}" class="twitter"><i class="fab fa-twitter"></i></a>
+													</li>
+												{% endif %}
+												{% if person.facebook != "" %}
+													<li>
+														<a target="_blank" href="{{ person.facebook }}" class="facebook"><i	class="fab fa-facebook-f"></i></a>
+													</li>
+												{% endif %}
+												{% if person.linkedin != "" %}
+													<li>
+														<a target="_blank" href="{{ person.linkedin }}" class="linkedin"><i	class="fab fa-linkedin-in"></i></a>
+													</li>
+												{% endif %}
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{% if page.type == 'speaker' %}
+							<div class="speaker-single-event-wrap">
+								<h2 class="section-title">All Sessions By Brooklyn Simmons</h2>
+								<div class="row">
+									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
+										<div class="speaker-single-event-box">
+											<div class="top-box">
+												<div class="day-number">Day - 1</div>
+											</div>
+											<div class="bottom-box">
+												<h3 class="title">July 27, 2021 12.00-13.00</h3>
+												<div class="sub-title">Conference Room 1</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.5s" data-wow-duration="1s">
+										<div class="speaker-single-event-box">
+											<div class="top-box">
+												<div class="day-number">Day - 2</div>
+											</div>
+											<div class="bottom-box">
+												<h3 class="title">July 25, 2021 12.00-13.00</h3>
+												<div class="sub-title">Conference Room 2</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.7s" data-wow-duration="1s">
+										<div class="speaker-single-event-box">
+											<div class="top-box">
+												<div class="day-number">Day - 3</div>
+											</div>
+											<div class="bottom-box">
+												<h3 class="title">July 24, 2021 12.00-13.00</h3>
+												<div class="sub-title">Conference Room 3</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						{% endif %}
+					</div>
+				</section>
+				<!--=====================================-->
+				<!--=  Speaker Single Section Area End  =-->
+				<!--=====================================-->
+				{% include footer.html %}
+				<!--=====================================-->
+				<!--=      Footer Section Area End      =-->
+				<!--=====================================-->
+			</div>
+			<!-- Offcanvas Menu Start -->
+			{% include rightmenu.html %}
+			<!-- Offcanvas Menu End -->
+			<!-- Search Start -->
+			{% include search.html %}
+			<!-- Search End -->
+		</div>
+		{% include script.html %}
+	</body>
+</html>

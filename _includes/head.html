@@ -1,10 +1,17 @@
-<head>
+<head prefix="og: https://ogp.me/ns#">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="" />
+  <meta name="description" content="{{ site.description }}" />
   <meta name="author" content="" />
-  <title>{{ site.title }}
-  </title>
+  {% if page.title %}
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+    <meta property="og:image" content="{{ page.ogp }}" />
+  {% else %}
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:image" content="{{ site.ogp }}" />
+  {% endif %}
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/image/favicons/favicon.ico">
   <!-- Dependency Styles -->
@@ -23,4 +30,12 @@
   <link rel="mask-icon" href="{{ site.baseurl }}/image/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  {% if page.url == "/" %}
+    <meta property="og:type" content="website" />
+  {% else %}
+    <meta property="og:type" content="article" />
+  {% endif %}
+  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:site_name" content="DevRel/Japan CONFERENCE 2023" />
 </head>

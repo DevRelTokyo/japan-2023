@@ -10,8 +10,7 @@
     "facebook": "https://fb.me/devreltokyo",
     "linkedin": "",
     "profile_ja": "",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "atsushi",
@@ -24,8 +23,7 @@
     "facebook": "https://fb.me/goofmint",
     "linkedin": "https://www.linkedin.com/in/goofmint/",
     "profile_ja": "株式会社MOONGIFT代表取締役。ニフクラ mobile backend エバンジェリスト。プログラマ、エンジニアとしていくつかの企業で働き、28歳のときに独立。2004年、まだ情報が少なかったオープンソースソフトの技術ブログ『MOONGIFT』を開設し、毎日情報を発信している。2013年に法人化、ビジネスとエンジニアを結ぶエバンジェリスト業「DevRel」活動をスタートした。",
-    "company": "MOONGIFT",
-    "": ""
+    "company": "MOONGIFT"
   },
   {
     "id": "yasunori",
@@ -38,8 +36,7 @@
     "facebook": "https://www.facebook.com/ysnrk",
     "linkedin": "https://www.linkedin.com/in/ysnrkr/",
     "profile_ja": "Minittというスタートアップ企業で「データプライバシー」領域のプロダクトに携わっています。プログラマー経験後、サーバー監視サービスや印刷APIプラットフォームのセールス・マーケティングを担当。コミュニティを通じてプロダクトを広める活動が好きです。",
-    "company": "Minitt",
-    "": ""
+    "company": "Minitt"
   },
   {
     "id": "odasho",
@@ -52,8 +49,7 @@
     "facebook": "https://www.facebook.com/odasho0618/",
     "linkedin": "https://www.linkedin.com/in/odasho/",
     "profile_ja": "10年程インフラやPaaS App開発まで幅広く経験。その後コミュニティ活動をきっかけにMicrosoftに入社、EvangelistとしてAudience Marketingに従事。2022年10月にmablにJoinし、TestingやQAの啓蒙活動に取り組む。現在もDevRel Meetup in Tokyoを中心に複数コミュニティを運営。TechFeed Expert for DevRel",
-    "company": "mabl Inc.",
-    "": ""
+    "company": "mabl Inc."
   },
   {
     "id": "journeyman",
@@ -66,8 +62,7 @@
     "facebook": "",
     "linkedin": "",
     "profile_ja": "🍑 桃こよなく愛す高知名物屋台餃子のエバンジェリスト。DevRel Meetup 運営メンバー。",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "yuko",
@@ -80,8 +75,7 @@
     "facebook": "https://www.facebook.com/kondoyuko516",
     "linkedin": "https://www.linkedin.com/in/kondoyuko/",
     "profile_ja": "京都大学工学部建築学科、東京大学大学院工学系研究科建築学専攻修士課程修了。フリーランスを経て2014年株式会社翔泳社に入社。ソフトウェア開発者向けWebメディア「CodeZine」の編集・企画・運営に携わる。2017年より、ソフトウェア開発者向けカンファレンス「Developers Summit」のオーガナイザー。2020年6月よりCodeZine編集長。キャッチコピーは「踊る編集者」。",
-    "company": "翔泳社",
-    "": ""
+    "company": "翔泳社"
   },
   {
     "id": "taiji",
@@ -94,8 +88,7 @@
     "facebook": "https://www.facebook.com/taiponrock/",
     "linkedin": "https://www.linkedin.com/in/taiponrock/",
     "profile_ja": "DatadogのSenior Technical Evangelist\n\n元美容師で元音楽家。ソフトウェアエンジニアへ転身後、受託開発やパッケージ開発を経て有限会社アキュレートシステムを起業。その後、技術者へリーチしたマーケティング、DevRel（Developer Relations）の道へシフトし、MKI（三井情報）では初のTechnical Evangelistとなる。その経験を活かしIBMではDeveloper Advocate Tokyo Teamの立ち上げをリード。OutSystemsではLead Developer Community Advocateとして活躍。筑波大学情報学群にて非常勤講師も務める。\n\nMicrosoft MVP (2017-2019)\n\n著書に「はじめてのNode-RED」「Node-RED活用マニュアル」「Practical Node-RED Programming」「開発者マーケティング DevRel Q&A」「英語で広がる開発者のキャリア」など",
-    "company": "Datadog",
-    "": ""
+    "company": "Datadog"
   },
   {
     "id": "neri",
@@ -108,22 +101,7 @@
     "facebook": "",
     "linkedin": "https://www.linkedin.com/in/daizenikehara/",
     "profile_ja": "NETエンジニアとしてキャリアをスタートし、その後10年以上に渡り外資系UIコンポーネントベンダーにおいて開発サポートエンジニア、エバンジェリスト、プリセールスエンジニア、プロダクトマーケティングなどを歴任。\n2019年10月よりTwilioに参画し、デベロッパーエバンジェリストとして日本・APAC地域の開発者リレーションを担当。趣味は長距離の散歩とドラクエウォーク、FF14。",
-    "company": "Twilio",
-    "": ""
-  },
-  {
-    "id": "yusuke",
-    "type": "member",
-    "name": "阿部祐介",
-    "title": "凡人エンジニア",
-    "url": "https://blog.slidict.io/profile-yusuke/",
-    "twitter": "https://twitter.com/yubele",
-    "github": "https://github.com/yubele",
-    "facebook": "https://www.facebook.com/yubele",
-    "linkedin": "https://www.linkedin.com/in/yubele/",
-    "profile_ja": "rails/phpエンジニアとして活動中。slidict.io Founder / 株式会社366 CTO",
-    "company": "slidict LLC",
-    "": "mxレコードが消えてた・・・"
+    "company": "Twilio"
   },
   {
     "id": "shotaro",
@@ -136,8 +114,7 @@
     "facebook": "https://www.facebook.com/shosuz/",
     "linkedin": "https://www.linkedin.com/in/shotaro-suzuki-5ab0b719/",
     "profile_ja": "日本マイクロソフトでテクニカルエバンジェリストとして .NET、Visual Studio、Windows、iOS、Android、Microsoft Azure 等の開発者向け技術啓発活動を13年にわたり担当。Dell、Accenture 等を経て、Elastic で開発者向け技術啓発活動に携わる。デジタル庁省庁業務グループソリューションアーキテクトを兼務。",
-    "company": "Elastic",
-    "": ""
+    "company": "Elastic"
   },
   {
     "id": "koki",
@@ -150,8 +127,7 @@
     "facebook": "https://www.facebook.com/koki.miura05/",
     "linkedin": "https://www.linkedin.com/in/koki-miura-11376114a/",
     "profile_ja": "ゲームアプリのサーバーサイドエンジニアを経て現在は自社のWebサービスの開発、チームリードを担当",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "msato",
@@ -164,8 +140,7 @@
     "facebook": "",
     "linkedin": "",
     "profile_ja": "",
-    "company": "ヴァル研究所",
-    "": ""
+    "company": "ヴァル研究所"
   },
   {
     "id": "ryoga",
@@ -178,8 +153,7 @@
     "facebook": "https://www.facebook.com/ryoga.takao/",
     "linkedin": "",
     "profile_ja": "日本アイ・ビー・エム株式会社 ITスペシャリスト。クラウドを中心に扱い、ハッカソンを愛してやまない新卒2年目のフルスタックエンジニア。",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "taro",
@@ -192,8 +166,7 @@
     "facebook": "",
     "linkedin": "",
     "profile_ja": "新卒1年目エンジニア。株式会社ワンキャリアにてQuality AssuranceチームとDeveloper Relationsチームの立ち上げ及び、エンジニア採用業務を担当しています。",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "nori",
@@ -206,8 +179,7 @@
     "facebook": "",
     "linkedin": "https://www.linkedin.com/in/nori-suzuki/",
     "profile_ja": "IT系出版社にて技術書籍の編集やWebメディアの運営、テックカンファレンスの企画など10年以上の編集経験を経て、畑違いの外資系企業に。現在は日本マイクロソフト株式会社でMicrosoft Azureのマーケティングコミュニケーションを担当。好きなオープンソースはRe:VIEW。VS Code Meetupをはじめ多くの技術コミュニティを運営している。",
-    "company": "Microsoft",
-    "": ""
+    "company": "Microsoft"
   },
   {
     "id": "sakutaro",
@@ -220,8 +192,7 @@
     "facebook": "",
     "linkedin": "",
     "profile_ja": "株式会社CARTA HOLDINGS(カルタホールディングス)の中の人。デジタル広告業界にて奮闘する年子育児エンジニア。最近は行政で未来社会の研究員やったりSRE NEXT運営やったりしてました。得意料理は沸騰。",
-    "company": "CARTA HOLDINGS",
-    "": ""
+    "company": "CARTA HOLDINGS"
   },
   {
     "id": "itoha",
@@ -234,8 +205,7 @@
     "facebook": "https://www.facebook.com/hayato.ito.376",
     "linkedin": "https://www.linkedin.com/in/%E9%9A%BC%E4%BA%BA-%E4%BC%8A%E8%97%A4-69b00b99",
     "profile_ja": "Application DeveloperからIT Consultant。IBMで7年、総合コンサルファームで1年、コネクテッド・カー屋さんになりつつある。",
-    "company": "",
-    "": ""
+    "company": ""
   },
   {
     "id": "suguru",
@@ -248,8 +218,33 @@
     "facebook": "https://www.facebook.com/suguru.ohishi.96",
     "linkedin": "https://www.linkedin.com/in/%E8%8B%B1-%E5%A4%A7%E7%9F%B3-2b8975139/",
     "profile_ja": "アイレット株式会社で（主に親会社向け）データ分析基盤構築のチームリーダーをしています。",
-    "company": "",
-    "": ""
+    "company": ""
+  },
+  {
+    "id": "canonno",
+    "type": "member",
+    "name": "賀野 壮一朗",
+    "title": "エンジニア",
+    "url": "",
+    "twitter": "https://twitter.com/canonno_blog",
+    "github": "https://github.com/canonno",
+    "facebook": "https://www.facebook.com/souichirou.kano/",
+    "linkedin": "https://www.linkedin.com/in/soichiro-kano-818b5a248/",
+    "profile_ja": "サントリーホールディングスにてデジマケ領域のIT関連何でも屋さんをやってます。最近新たに社内のコミュニティマネージャ屋さん始めました。ストリートピアノをこよなく愛してます。",
+    "company": "Suntory Holdings Limited"
+  },
+  {
+    "id": "kamimi",
+    "type": "member",
+    "name": "浦川 美佳",
+    "title": "iOSエンジニア",
+    "url": "https://note.com/kamimi01",
+    "twitter": "https://twitter.com/kamimi_01",
+    "github": "https://github.com/kamimi01",
+    "facebook": "",
+    "linkedin": "https://www.linkedin.com/in/mkurakawa/",
+    "profile_ja": "IBMでモバイルアプリを中心とした案件に4年間従事。2022年4月にヤプリにiOSエンジニアとして入社し、iOSエンジニアとして働いています。海と文章を書くことが好きです。",
+    "company": ""
   },
   {
     "id": "miho",
@@ -262,8 +257,7 @@
     "facebook": "https://www.facebook.com/miho.ezawa/",
     "linkedin": "https://www.linkedin.com/in/miho-ezawa-8a3403a8/",
     "profile_ja": "クレスコでAIコンサル・エンジニアとして企業へのAI導入を全力サポート。2019年からIBM Champion、技術系コミュニティのイベント企画運営やMLSEの組織運営委員をしています。テクノロジーで身近な課題を解決！をテーマに活動中。翔泳社から技術書もだしてます。",
-    "company": "CRESCO",
-    "": ""
+    "company": "CRESCO"
   },
   {
     "id": "kazumi",
@@ -276,7 +270,6 @@
     "facebook": "https://www.facebook.com/dzeyelid",
     "linkedin": "",
     "profile_ja": "フリーランス/ZEN Architects 所属。Microsoft MVP for Azure アワードを6年継続受賞し、Microsoft Azure や GitHub を中心に活動しています。技術コミュニティにはよく運営や登壇含め参加しており、中でも女性エンジニアを応援するコミュニティ Code Polaris を代表で運営しています。",
-    "company": "",
-    "": ""
+    "company": ""
   }
 ]
