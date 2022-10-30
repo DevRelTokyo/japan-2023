@@ -1,0 +1,114 @@
+---
+layout: home
+title: お問い合わせ
+permalink: /contact/
+---
+<!DOCTYPE html>
+<html lang="ja">
+	{% include head.html %}
+	<body>
+		<!-- Add your site or application content here -->
+		<div class="wrapper" id="wrapper">
+			{% include preloader.html %}
+			<div id="main_content">
+				{% include header.html %}
+				{% include menu.html %}
+				<section class="hero-wrap-layout">
+					<div class="row justify-content-md-center">
+						<div class="col-md-8">
+							<div class="section-title" style="padding-top: 2em">
+								<h2>お問い合わせ</h2>
+							</div>
+							<form id="contact">
+								<div class="mb-3">
+									<label for="company" class="form-label">企業名・団体名</label>
+									<input type="text" name="company" class="form-control">
+								</div>
+								<div class="mb-3">
+									<label for="name" class="form-label">お名前<sup style="color:red">*</sup></label>
+									<input type="text" name="name" class="form-control" required>
+								</div>
+								<div class="mb-3">
+									<label for="name" class="form-label">メールアドレス<sup style="color:red">*</sup></label>
+									<input type="text" name="email" class="form-control" required>
+								</div>
+								<label for="profile" class="form-label">お問い合わせ種別<sup style="color:red">*</sup></label>
+								<div class="mb-3">
+									<div class="form-check form-check-inline">
+										<label class="form-check-label" for="inlineRadio1">
+											<input class="form-check-input" type="radio" name="category" value="sponsor" required>
+											スポンサード
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="attend" required>
+										<label class="form-check-label" for="inlineRadio2">
+											参加について
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="community" required>
+										<label class="form-check-label" for="inlineRadio2">
+											コミュニティプログラム
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="kidsroom" required>
+										<label class="form-check-label" for="inlineRadio2">
+											キッズルーム
+										</label>
+									</div>
+									<br />
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="speaker" required>
+										<label class="form-check-label" for="inlineRadio2">
+											登壇について
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="venue" required>
+										<label class="form-check-label" for="inlineRadio2">
+											会場
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="media" required>
+										<label class="form-check-label" for="inlineRadio2">
+											取材
+										</label>
+									</div>
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="radio" name="category" value="other" required>
+										<label class="form-check-label" for="inlineRadio2">
+											その他
+										</label>
+									</div>
+								</div>
+								<div class="mb-3">
+									<label for="session_reason" class="form-label">お問い合わせ詳細<sup style="color:red">*</sup></label>
+									<textarea name="body" class="form-control" rows="10" required></textarea>
+								</div>
+								<div style="padding-top: 1em;">
+									<div class="alert" id="result" role="alert" style="display: none;">
+									</div>
+									<button type="submit" class="btn btn-primary">お問い合わせ</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</section>
+				{% include footer.html %}
+			</div>
+			<!-- Offcanvas Menu Start -->
+			{% include rightmenu.html %}
+			<!-- Offcanvas Menu End -->
+			<!-- Search Start -->
+			{% include search.html %}
+			<!-- Search End -->
+		</div>
+		{% include script.html %}
+		<script src="{{ site.baseurl }}/js/ncmb.min.js"></script>
+		<script src="{{ site.baseurl }}/js/jquery-url.min.js"></script>
+		<script src="{{ site.baseurl }}/js/contact.js"></script>
+	</body>
+</html>
