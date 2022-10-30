@@ -21,13 +21,12 @@
 title: DevRel/Japan CONFERENCE 2023
 email: japan-2023@devrel.tokyo
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  DevRel/Japan CONFERENCE 2023は日本唯一の日本語によるDevRelカンファレンスです。2023年3月10日・11日に横浜にて開催されます。
 baseurl: "/japan-2023" # the subpath of your site, e.g. /blog
 url: "https://devrel.tokyo" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+ogp: /japan-2023/image/ogp.jpg
 
 # Build settings
 theme: minima
