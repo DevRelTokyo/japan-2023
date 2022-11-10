@@ -284,5 +284,18 @@
     "linkedin": "https://www.linkedin.com/in/keiichironozaki/",
     "profile_ja": "インフラ系外資IT企業、通信事業者やソフトウェアベンダでプロジェクトマネージャ、プロダクトマーケティングを経て、現在はAtlassianのエバンジェリスト。\r\n2021年12 月にLinkedInジャパンによる「クリエイター・オブ・ザ・イヤー2021 - 人を惹き付けるクリエイター10人」に選出。\r\n2022年4月より日経新聞社の「日経ビジネススクール オンデマンド」でプロダクト・ローンチや市場調査業務関連の複数講座の講師を担当。",
     "company": "Atlassian"
+  },
+  {
+    "id": "tarotaro",
+    "type": "member",
+    "name": "川下 太郎",
+    "title": "Technology Evangelist",
+    "url": "",
+    "twitter": "https://twitter.com/tarotaro4",
+    "github": "https://github.com/cafedeaqua",
+    "facebook": "https://fb.me/taro.kawashita.9",
+    "linkedin": "https://www.linkedin.com/in/taro-kawashita-786310106/",
+    "profile_ja": "ソフトウェアエンジニア＆テクノロジーエバンジェリスト。組み込み機器開発業務からAPI/SDK開発経験を通して、なかなか開発者に要素技術を広げられない経験からDevRelに出合い、会社のConference開催を目指している。ワンゲル、ピックルボール、ビール、ウサギ・パンダなどが好き。",
+    "company": "Sony"
   }
 ]
