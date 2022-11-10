@@ -271,5 +271,18 @@
     "linkedin": "",
     "profile_ja": "フリーランス/ZEN Architects 所属。Microsoft MVP for Azure アワードを6年継続受賞し、Microsoft Azure や GitHub を中心に活動しています。技術コミュニティにはよく運営や登壇含め参加しており、中でも女性エンジニアを応援するコミュニティ Code Polaris を代表で運営しています。",
     "company": ""
+  },
+  {
+    "id": "keiichiro",
+    "type": "member",
+    "name": "野崎 馨一郎",
+    "title": "Evangelist",
+    "url": "https://note.com/keiichironozaki",
+    "twitter": "https://twitter.com/KeiichiroNozaki",
+    "github": "",
+    "facebook": "https://www.facebook.com/k1law",
+    "linkedin": "https://www.linkedin.com/in/keiichironozaki/",
+    "profile_ja": "",
+    "company": ""
   }
 ]
