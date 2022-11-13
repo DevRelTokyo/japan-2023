@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/canonno/
-title: @
+title: 賀野 壮一朗@Suntory Holdings Limited
 ogp: /japan-2023/image/ogp/canonno.jpg
 type: organizer
 id: canonno
