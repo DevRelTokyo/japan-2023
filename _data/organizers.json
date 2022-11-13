@@ -188,8 +188,8 @@
     "title": "技術広報",
     "url": "https://cartaholdings.co.jp",
     "twitter": "https://twitter.com/saku_238",
-    "github": "",
-    "facebook": "",
+    "github": "https://github.com/238sakurai",
+    "facebook": "https://www.facebook.com/fumiya.sakurai.238",
     "linkedin": "",
     "profile_ja": "株式会社CARTA HOLDINGS(カルタホールディングス)の中の人。デジタル広告業界にて奮闘する年子育児エンジニア。最近は行政で未来社会の研究員やったりSRE NEXT運営やったりしてました。得意料理は沸騰。",
     "company": "CARTA HOLDINGS"
@@ -271,5 +271,31 @@
     "linkedin": "",
     "profile_ja": "フリーランス/ZEN Architects 所属。Microsoft MVP for Azure アワードを6年継続受賞し、Microsoft Azure や GitHub を中心に活動しています。技術コミュニティにはよく運営や登壇含め参加しており、中でも女性エンジニアを応援するコミュニティ Code Polaris を代表で運営しています。",
     "company": ""
+  },
+  {
+    "id": "keiichiro",
+    "type": "member",
+    "name": "野崎 馨一郎",
+    "title": "Evangelist",
+    "url": "https://note.com/keiichironozaki",
+    "twitter": "https://twitter.com/KeiichiroNozaki",
+    "github": "",
+    "facebook": "https://www.facebook.com/k1law",
+    "linkedin": "https://www.linkedin.com/in/keiichironozaki/",
+    "profile_ja": "インフラ系外資IT企業、通信事業者やソフトウェアベンダでプロジェクトマネージャ、プロダクトマーケティングを経て、現在はAtlassianのエバンジェリスト。\r\n2021年12 月にLinkedInジャパンによる「クリエイター・オブ・ザ・イヤー2021 - 人を惹き付けるクリエイター10人」に選出。\r\n2022年4月より日経新聞社の「日経ビジネススクール オンデマンド」でプロダクト・ローンチや市場調査業務関連の複数講座の講師を担当。",
+    "company": "Atlassian"
+  },
+  {
+    "id": "tarotaro",
+    "type": "member",
+    "name": "川下 太郎",
+    "title": "Technology Evangelist",
+    "url": "",
+    "twitter": "https://twitter.com/tarotaro4",
+    "github": "https://github.com/cafedeaqua",
+    "facebook": "https://fb.me/taro.kawashita.9",
+    "linkedin": "https://www.linkedin.com/in/taro-kawashita-786310106/",
+    "profile_ja": "ソフトウェアエンジニア＆テクノロジーエバンジェリスト。組み込み機器開発業務からAPI/SDK開発経験を通して、なかなか開発者に要素技術を広げられない経験からDevRelに出合い、会社のConference開催を目指している。ワンゲル、ピックルボール、ビール、ウサギ・パンダなどが好き。",
+    "company": "Sony"
   }
 ]
