@@ -4,6 +4,7 @@
   "description": "## Requirement",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+	<!-- Add your site or application content here -->
+	<div class="wrapper" id="wrapper">
+		{% include preloader.html %}
+		<div id="main_content">
+			{% include header.html %}
+			{% include menu.html %}
+			<section class="hero-wrap-layout">
+				<div class="row justify-content-md-center">
+					<div class="col-md-8">
+						<div class="section-title text-center">
+							<h2>{{ page.title }}</h2>
+							{{ page.description | markdownify }}
+						</div>
+						<div class="col col-md-10">
+							{{ content | markdownify }}
+						</div>
+					</div>
+				</div>
+			</section>
+			{% include footer.html %}
+		</div>
+		<!-- Offcanvas Menu Start -->
+		{% include rightmenu.html %}
+		<!-- Offcanvas Menu End -->
+		<!-- Search Start -->
+		{% include search.html %}
+		<!-- Search End -->
+	</div>
+	{% include script.html %}
+	<script src="{{ site.baseurl }}/js/ncmb.min.js"></script>
+	<script src="{{ site.baseurl }}/js/jquery-url.min.js"></script>
+</body>
+
+</html>
