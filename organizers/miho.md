@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/miho/
-title: 江澤 美保@CRESCO
+title: @
 ogp: /japan-2023/image/ogp/miho.jpg
 type: organizer
 id: miho

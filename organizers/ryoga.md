@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/ryoga/
-title: 髙尾 凌我@
+title: @
 ogp: /japan-2023/image/ogp/ryoga.jpg
 type: organizer
 id: ryoga

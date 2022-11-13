@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/itoha/
-title: 伊藤 隼人 @
+title: @
 ogp: /japan-2023/image/ogp/itoha.jpg
 type: organizer
 id: itoha

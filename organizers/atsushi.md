@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/atsushi/
-title: アツシ@MOONGIFT
+title: @
 ogp: /japan-2023/image/ogp/atsushi.jpg
 type: organizer
 id: atsushi

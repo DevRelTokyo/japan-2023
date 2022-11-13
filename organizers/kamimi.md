@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/kamimi/
-title: 浦川 美佳@
+title: @
 ogp: /japan-2023/image/ogp/kamimi.jpg
 type: organizer
 id: kamimi

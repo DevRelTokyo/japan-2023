@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/yuko/
-title: 近藤佑子@翔泳社
+title: @
 ogp: /japan-2023/image/ogp/yuko.jpg
 type: organizer
 id: yuko

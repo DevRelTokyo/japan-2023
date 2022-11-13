@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/sakutaro/
-title: 櫻井 文矢@CARTA HOLDINGS
+title: @
 ogp: /japan-2023/image/ogp/sakutaro.jpg
 type: organizer
 id: sakutaro

@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/yasunori/
-title: 木原 康智@Minitt
+title: @
 ogp: /japan-2023/image/ogp/yasunori.jpg
 type: organizer
 id: yasunori

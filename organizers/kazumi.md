@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/kazumi/
-title: 岩永 かづみ@
+title: @
 ogp: /japan-2023/image/ogp/kazumi.jpg
 type: organizer
 id: kazumi
