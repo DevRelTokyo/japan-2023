@@ -4,10 +4,10 @@ json = JSON.parse(open('./_data/organizers.json').read)
 json.each do |organizer|
 	next if organizer['type'] == 'group'
 	title = ''
-	if organizer['comapny'] != ''
-		title = "#{organizer['name']}@#{organizer['company']}"
+	if organizer['comapny_ja'] != ''
+		title = "#{organizer['name_ja']}@#{organizer['company_ja']}"
 	else
-		title = organizer['name']
+		title = organizer['name_ja']
 	end
 	
   content = <<-EOS

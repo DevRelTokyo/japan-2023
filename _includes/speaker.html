@@ -1,0 +1,39 @@
+{% assign speaker = include.speaker %}
+<div class="col-lg-4 col-md-6 col-12wow fadeInUp animated animated" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+	<div class="speaker-box-layout4">
+		<div class="figure-box">
+			<a href="{{ site.baseurl }}/speakers/{{ speaker.id }}/">
+				<img src="{{ site.baseurl }}/image/people/{{ speaker.id }}.jpg" alt="Speaker" width="460" height="424">
+			</a>
+		</div>
+		<div class="content-box">
+			<h3 class="title">
+				<a href="{{ site.baseurl }}/speakers/{{ speaker.id }}/">{{ speaker.name_ja }}</a></h3>
+			<div class="sub-title">{{ speaker.company_ja }}</div>
+		</div>
+		<div class="speaker-social">
+			<ul>
+				{% if speaker.facebook != '' %}
+					<li class="facebook">
+						<a target="_blank" href="{{ speaker.facebook }}"><i class="fab fa-facebook-f"></i></a>
+					</li>
+				{% endif %}
+				{% if speaker.twitter != '' %}
+					<li class="twitter">
+						<a target="_blank" href="{{ speaker.twitter }}"><i class="fab fa-twitter"></i></a>
+					</li>
+				{% endif %}
+				{% if speaker.instagram != '' %}
+					<li class="instagram">
+						<a target="_blank" href="{{ speaker.instagram }}"><i class="fab fa-instagram"></i></a>
+					</li>
+				{% endif %}
+				{% if speaker.linkedin != '' %}
+					<li class="linkedin">
+						<a target="_blank" href="{{ speaker.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+					</li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,49 +1,24 @@
-<section class="speaker-wrap-layout2">
+<a name="speakers"></a>
+<section class="speaker-wrap-layout4">
 	<div class="container">
 		<div class="section-heading style-two">
 			<h2 class="title">スピーカー</h2>
 			<div class="sub-title">素晴らしいスピーカーの方々です。随時追加発表します。</div>
 		</div>
-		<div class="row">
+		<div class="row" style="padding-bottom: 1rem;">
 			<div class="text-center">
 				<strong>あなたもスピーカーになりませんか？</strong>
 			</div>
 			<a href="{{ site.baseurl }}/cfp/" class="btn-fill style-two wow fadeInUp animated" data-wow-delay="0.9s" data-wow-duration="0.5s">
 				CFP（プロポーザル）を提出する ※ 2022年12月15日まで
 			</a>
-			<!--
-			<div class="col-lg-4 col-sm-6 col-12 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.3s">
-				<div class="speaker-box-layout2 color-one">
-					<div class="figure-box">
-						<img src="image/speaker/12.jpg" alt="Speaker" width="546" height="615">
-					</div>
-					<div class="content-box">
-						<h3 class="title"><a href="speaker-single.html">Cameron Williamson</a></h3>
-						<div class="sub-title">Brand Manager Apple</div>
-						<div class="speaker-social">
-							<ul>
-								<li class="facebook">
-									<a target="_blank" href="https://www.facebook.com/radiustheme"><i
-																			class="fab fa-facebook-f"></i></a>
-								</li>
-								<li class="twitter">
-									<a target="_blank" href="https://twitter.com/radiustheme"><i
-																			class="fab fa-twitter"></i></a>
-								</li>
-								<li class="instagram">
-									<a target="_blank" href="https://www.facebook.com/radiustheme"><i
-																			class="fab fa-instagram"></i></a>
-								</li>
-								<li class="linkedin">
-									<a target="_blank" href="https://www.facebook.com/radiustheme"><i
-																			class="fab fa-linkedin-in"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			-->
+		</div>
+		<div class="row speakers">
+			{% assign speakers = site.data.speakers | where: "conference", "japan" %}
+			{% for speaker in speakers %}
+				{% include speaker.html speaker=speaker %}
+			{% endfor %}
 		</div>
 	</div>
 </section>
+<script src="{{ site.baseurl }}/js/speakers.js"></script>
