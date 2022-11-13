@@ -1,5 +1,7 @@
 # DevRel/Japan CONFERENCE 2023
 
+https://devrel.tokyo/japan-2023/
+
 ## Requirement
 
 - Ruby
