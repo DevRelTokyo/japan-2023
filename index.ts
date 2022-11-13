@@ -8,15 +8,15 @@ const current = process.cwd();
 type TypeOrganizer = {
 	id: string
 	type: string
-	name: string
-	title: string
+	name_ja: string
+	title_ja: string
 	url: string
 	twitter: string
 	github: string
 	facebook: string
 	linkedin: string
 	profile_ja: string
-	company: string
+	company_ja: string
 }
 
 export const generateOgImage = async (organizer: TypeOrganizer): Promise<Buffer> => {
@@ -40,7 +40,7 @@ export const generateOgImage = async (organizer: TypeOrganizer): Promise<Buffer>
   const circle = imageSize/2;
   ctx.arc(width / 2, height / 2, circle, 0, Math.PI*2, false);
   ctx.clip();
-	const imageSrc = path.resolve(current, `image/organizers/${organizer.id}.jpg`);
+	const imageSrc = path.resolve(current, `image/people/${organizer.id}.jpg`);
 	const person = await loadImage(fs.readFileSync(imageSrc));
 	ctx.drawImage(person, 0, 0, imageSize, imageSize, width / 2 - imageSize / 2, height / 2 - imageSize / 2, imageSize, imageSize);
   ctx.restore();
@@ -53,8 +53,8 @@ export const generateOgImage = async (organizer: TypeOrganizer): Promise<Buffer>
 	ctx.font = "30px 'NotoSansJP'";
   ctx.fillStyle = "rgb(255,255,255)";
 	ctx.beginPath();
-  const textWidth = ctx.measureText( organizer.name ).width;
-  ctx.fillText(organizer.name, width / 2 - textWidth / 2, 455);
+  const textWidth = ctx.measureText( organizer.name_ja ).width;
+  ctx.fillText(organizer.name_ja, width / 2 - textWidth / 2, 455);
 	const title = getTitle(organizer);
   let companyWidth = ctx.measureText( title ).width;
 	if (companyWidth > 700) {
@@ -66,22 +66,26 @@ export const generateOgImage = async (organizer: TypeOrganizer): Promise<Buffer>
 }
 
 const getTitle = (organizer: TypeOrganizer): string => {
-	if (organizer.title !== '' && organizer.company !== '') {
-		return `${organizer.title}@${organizer.company}`;
+	if (organizer.title_ja !== '' && organizer.company_ja !== '') {
+		return `${organizer.title_ja}@${organizer.company_ja}`;
 	}
-	if (organizer.title !== '') {
-		return organizer.title;
+	if (organizer.title_ja !== '') {
+		return organizer.title_ja;
 	}
-	return organizer.company;
+	return organizer.company_ja;
 }
 
 const organizers = require('./_data/organizers.json');
+const speakers = require('./_data/speakers.json');
 
-(async () => {
-	organizers.forEach(async (organizer: any) => {
-		if (organizer.type === 'member') {
-			const img = await generateOgImage(organizer);
-			fs.writeFileSync(path.resolve(current, 'image/ogp', `${organizer.id}.jpg`), img);
-		}
+const generate = async (people: any[]) => {
+	people.forEach(async (organizer: any) => {
+		const img = await generateOgImage(organizer);
+		fs.writeFileSync(path.resolve(current, 'image/ogp', `${organizer.id}.jpg`), img);
 	});
+};
+(async () => {
+	await generate(organizers.filter((person: any) => person.type === 'member'));
+	await generate(speakers.filter((person: any) => person.conference === 'japan'));
 })();
+

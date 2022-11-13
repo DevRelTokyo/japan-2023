@@ -2,18 +2,18 @@
 <div class="col-lg-3 col-sm-6 col-12 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.3s">
 	<div class="speaker-box-layout2">
 		<div class="figure-box">
-			<img src="{{ site.baseurl }}/image/organizers/{{ organizer.id }}.jpg" alt="{{ organizer.name }}" width="400" height="400" />
+			<img src="{{ site.baseurl }}/image/people/{{ organizer.id }}.jpg" alt="{{ organizer.name_ja }}" width="400" height="400" />
 		</div>
 		<div class="content-box">
 			<h3 class="title">
 				{% if organizer.type == "member" %}
-					<a href="{{ site.baseurl }}/organizers/{{ organizer.id }}/">{{ organizer.name }}</a>
+					<a href="{{ site.baseurl }}/organizers/{{ organizer.id }}/">{{ organizer.name_ja }}</a>
 				{% else %}
-					{{ organizer.name }}
+					{{ organizer.name_ja }}
 				{% endif %}
 			</h3>
 			<div class="sub-title">
-				{% if organizer.title != "" %}{{ organizer.title }}{% if organizer.company != "" %}@{% endif %}{% endif %}{% if organizer.company != "" %}{{ organizer.company }}{% endif %}
+				{% if organizer.title_ja != "" %}{{ organizer.title_ja }}{% if organizer.company_ja != "" %}@{% endif %}{% endif %}{% if organizer.company_ja != "" %}{{ organizer.company_ja }}{% endif %}
 			</div>
 			<div class="speaker-social">
 				<ul>
