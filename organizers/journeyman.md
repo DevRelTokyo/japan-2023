@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/journeyman/
-title: @
+title: ジャニ@
 ogp: /japan-2023/image/ogp/journeyman.jpg
 type: organizer
 id: journeyman

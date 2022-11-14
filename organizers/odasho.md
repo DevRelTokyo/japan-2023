@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/odasho/
-title: @
+title: おだしょー@mabl Inc.
 ogp: /japan-2023/image/ogp/odasho.jpg
 type: organizer
 id: odasho

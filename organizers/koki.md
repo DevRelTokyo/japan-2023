@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/koki/
-title: @
+title: 三浦 耕生@
 ogp: /japan-2023/image/ogp/koki.jpg
 type: organizer
 id: koki

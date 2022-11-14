@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/tarotaro/
-title: @
+title: 川下 太郎@Sony
 ogp: /japan-2023/image/ogp/tarotaro.jpg
 type: organizer
 id: tarotaro

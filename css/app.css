@@ -14347,3 +14347,9 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 /*# sourceMappingURL=maps/app.css.map */
+
+.page ul {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  line-height: 1.6em;
+}

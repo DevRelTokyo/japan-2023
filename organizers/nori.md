@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/nori/
-title: @
+title: 鈴木 教之@Microsoft
 ogp: /japan-2023/image/ogp/nori.jpg
 type: organizer
 id: nori

@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/suguru/
-title: @
+title: 大石 英@
 ogp: /japan-2023/image/ogp/suguru.jpg
 type: organizer
 id: suguru
