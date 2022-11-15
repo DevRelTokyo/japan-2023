@@ -54,9 +54,9 @@
     "id": "odasho",
     "type": "member",
     "name_ja": "おだしょー",
-    "name_en": "",
+    "name_en": "odasho",
     "title_ja": "Product Marketing Manager",
-    "title_en": "",
+    "title_en": "Product Marketing Manager",
     "url": "https://www.mabl.com/ja/",
     "twitter": "https://twitter.com/odashoDotCom",
     "github": "https://github.com/odasho0618",
@@ -65,7 +65,7 @@
     "profile_ja": "10年程インフラやPaaS App開発まで幅広く経験。その後コミュニティ活動をきっかけにMicrosoftに入社、EvangelistとしてAudience Marketingに従事。2022年10月にmablにJoinし、Test automationやQAの啓蒙活動に取り組む。現在もDevRel Meetup in Tokyoを中心に複数コミュニティを運営。TechFeed Expert for DevRel",
     "profile_en": "",
     "company_ja": "mabl Inc.",
-    "company_en": ""
+    "company_en": "mabl Inc."
   },
   {
     "id": "journeyman",
@@ -88,9 +88,9 @@
     "id": "yuko",
     "type": "member",
     "name_ja": "近藤佑子",
-    "name_en": "",
+    "name_en": "Yuko Kondo",
     "title_ja": "CodeZine編集長",
-    "title_en": "",
+    "title_en": "CodeZine Editor in Chief",
     "url": "https://kondoyuko.com/",
     "twitter": "https://twitter.com/kondoyuko",
     "github": "https://github.com/kondoyuko",
@@ -99,7 +99,7 @@
     "profile_ja": "京都大学工学部建築学科、東京大学大学院工学系研究科建築学専攻修士課程修了。フリーランスを経て2014年株式会社翔泳社に入社。ソフトウェア開発者向けWebメディア「CodeZine」の編集・企画・運営に携わる。2017年より、ソフトウェア開発者向けカンファレンス「Developers Summit」のオーガナイザー。2020年6月よりCodeZine編集長。キャッチコピーは「踊る編集者」。",
     "profile_en": "",
     "company_ja": "翔泳社",
-    "company_en": ""
+    "company_en": "SHOEISHA"
   },
   {
     "id": "taiji",
