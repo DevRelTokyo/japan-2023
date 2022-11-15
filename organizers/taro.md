@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /organizers/taro/
-title: 中西 太郎@
+title: 中西 太郎@ワンキャリア
 ogp: /japan-2023/image/ogp/taro.jpg
 type: organizer
 id: taro
