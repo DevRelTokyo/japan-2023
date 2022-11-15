@@ -122,9 +122,9 @@
     "id": "neri",
     "type": "member",
     "name_ja": "池原 大然",
-    "name_en": "",
+    "name_en": "Daizen Ikehara",
     "title_ja": "Principal Developer Evangelist",
-    "title_en": "",
+    "title_en": "Principal Developer Evangelist",
     "url": "https://www.twilio.com/ja",
     "twitter": "https://twitter.com/Neri78",
     "github": "https://github.com/neri78",
@@ -133,7 +133,7 @@
     "profile_ja": "NETエンジニアとしてキャリアをスタートし、その後10年以上に渡り外資系UIコンポーネントベンダーにおいて開発サポートエンジニア、エバンジェリスト、プリセールスエンジニア、プロダクトマーケティングなどを歴任。\n2019年10月よりTwilioに参画し、デベロッパーエバンジェリストとして日本・APAC地域の開発者リレーションを担当。趣味は長距離の散歩とドラクエウォーク、FF14。",
     "profile_en": "",
     "company_ja": "Twilio",
-    "company_en": ""
+    "company_en": "Twilio"
   },
   {
     "id": "shotaro",
@@ -158,16 +158,16 @@
     "name_ja": "三浦 耕生",
     "name_en": "",
     "title_ja": "Software Engineer",
-    "title_en": "",
+    "title_en": "Software Engineer",
     "url": "https://www.map4.jp/",
     "twitter": "https://twitter.com/k_miura_io",
     "github": "https://github.com/",
     "facebook": "https://www.facebook.com/koki.miura05/",
     "linkedin": "https://www.linkedin.com/in/koki-miura-11376114a/",
     "profile_ja": "ゲームアプリのサーバーサイドエンジニアを経て現在は自社のWebサービスの開発、チームリードを担当",
-    "profile_en": "",
-    "company_ja": "",
-    "company_en": ""
+    "profile_en": "After working as a server-side engineer for a game application, currently in charge of development and team lead for the company's web service.",
+    "company_ja": "MAP Ⅳ Inc.",
+    "company_en": "MAP Ⅳ Inc."
   },
   {
     "id": "msato",
