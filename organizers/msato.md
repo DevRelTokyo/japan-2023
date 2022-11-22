@@ -6,4 +6,4 @@ ogp: /japan-2023/image/ogp/msato.jpg
 type: organizer
 id: msato
 ---
-
+乗り換え案内サービスの営業です。
