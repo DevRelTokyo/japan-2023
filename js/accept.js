@@ -16,7 +16,10 @@ $(async () => {
 			console.log(key);
 			$(`.proposal-${key}`).text(proposal[key]);
 		});
-		await proposal.set('acceptDate', new Date()).update();
+		await proposal
+			.set('uploaded', true)
+			.set('acceptDate', new Date())
+			.update();
 	} catch (e) {
 		alert('不正なアクセスです');
 		return;
