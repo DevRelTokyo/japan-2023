@@ -16,7 +16,8 @@
     "web": "",
     "instagram": "",
     "profile_en": "",
-    "interview_url": "https://www.youtube.com/watch?v=rXAC35g4Cys"
+    "interview_url": "https://www.youtube.com/watch?v=rXAC35g4Cys",
+    "photo": "https://drive.google.com/uc?id=1QjF72vnaFXD2aDfWsV4r_vUxBUiN8S_X"
   },
   {
     "id": "hideki",
@@ -35,7 +36,8 @@
     "web": "https://stilldayone.hatenablog.jp/",
     "instagram": "",
     "profile_en": "",
-    "interview_url": "https://www.youtube.com/watch?v=AqsJBYi2hug"
+    "interview_url": "https://www.youtube.com/watch?v=AqsJBYi2hug",
+    "photo": "https://drive.google.com/uc?id=1RAV6IorMkfEWCSvsJ1JWSO-oGuyYfmDw"
   },
   {
     "id": "yoshie",
@@ -54,7 +56,8 @@
     "web": "https://note.com/typhon666",
     "instagram": "",
     "profile_en": "",
-    "interview_url": ""
+    "interview_url": "",
+    "photo": "https://drive.google.com/uc?id=1ZytnPetQL8Hbm0o3NJd32othVqlE9-Rb"
   },
   {
     "id": "jun",
@@ -73,6 +76,7 @@
     "web": "",
     "instagram": "",
     "profile_en": "I have 20+ years experience in the tech industry and I've focused on Japan GTM for several U.S. startups in recent 10 years. I'd like to share my failure and success I've experienced working for developer tools startups such as GitHub, Auth0, and mabl.",
-    "interview_url": "https://www.youtube.com/watch?v=PXBHY3uvFJk"
+    "interview_url": "https://www.youtube.com/watch?v=PXBHY3uvFJk",
+    "photo": ""
   }
 ]
