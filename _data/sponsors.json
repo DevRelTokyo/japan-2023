@@ -1,0 +1,12 @@
+[
+  {
+    "id": "magicpod",
+    "type": "booth",
+    "label_ja": "ブース",
+    "label_en": "Booth",
+    "name_ja": "MagicPod",
+    "name_en": "MagicPod",
+    "url_ja": "https://magicpod.com/",
+    "url_en": "https://magicpod.com/en/"
+  }
+]

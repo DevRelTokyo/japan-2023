@@ -52,7 +52,11 @@
 							<div class="col-lg-2 col-12">
 								<div class="speaker-single-box">
 									<div class="figure-box wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-										<img src="{{ site.baseurl }}/image/people/{{ person.id }}.jpg" alt="{{ person.name }}">
+										{% if person.photo %}
+											<img src="{{ person.photo }}" alt="{{ person.name }}">
+										{% else %}
+											<img src="{{ site.baseurl }}/image/people/{{ person.id }}.jpg" alt="{{ person.name }}">
+										{% endif %}
 									</div>
 								</div>
 							</div>

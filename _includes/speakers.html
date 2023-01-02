@@ -13,7 +13,9 @@
 		<div class="row speakers">
 			{% assign speakers = site.data.speakers | where: "conference", "japan" %}
 			{% for speaker in speakers %}
-				{% include speaker.html speaker=speaker %}
+				{% if speaker.photo != "" %}
+					{% include speaker.html speaker=speaker %}
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>
