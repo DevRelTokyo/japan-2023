@@ -100,46 +100,33 @@
 							</div>
 						</div>
 						{% if page.type == 'speaker' %}
-							<!--
+							{% assign session = site.data.sessions | where: 'first_speaker', person.id %}
+							{% assign session = session[0] %}
+							{% if session %}
+							{% endif %}
 							<div class="speaker-single-event-wrap">
-								<h2 class="section-title">All Sessions By Brooklyn Simmons</h2>
+								<h2 class="section-title">{{ person.name_ja }}さんのセッション情報</h2>
 								<div class="row">
-									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
+									<div class="col-lg-12 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
 										<div class="speaker-single-event-box">
 											<div class="top-box">
-												<div class="day-number">Day - 1</div>
+												<div class="day-number">
+													{% if session.day != '' %}{{ session.day }}日{% else %}日時未定{% endif %}
+													{% if session.start_time != '' %}{{ session.start_time }}〜{{ session.end_time }}{% endif %}
+												</div>
 											</div>
 											<div class="bottom-box">
-												<h3 class="title">July 27, 2021 12.00-13.00</h3>
-												<div class="sub-title">Conference Room 1</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.5s" data-wow-duration="1s">
-										<div class="speaker-single-event-box">
-											<div class="top-box">
-												<div class="day-number">Day - 2</div>
-											</div>
-											<div class="bottom-box">
-												<h3 class="title">July 25, 2021 12.00-13.00</h3>
-												<div class="sub-title">Conference Room 2</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4 wow fadeInLeft animated" data-wow-delay="0.7s" data-wow-duration="1s">
-										<div class="speaker-single-event-box">
-											<div class="top-box">
-												<div class="day-number">Day - 3</div>
-											</div>
-											<div class="bottom-box">
-												<h3 class="title">July 24, 2021 12.00-13.00</h3>
-												<div class="sub-title">Conference Room 3</div>
+												<h3 class="title">
+													{% if session.title_ja != '' %}{{ session.title_ja }}{% else %}TBD{% endif %}
+												</h3>
+												<div class="sub-title" style="color: black;">
+													{% if session.description_ja != '' %}{{ session.description_ja | markdownify }}{% endif %}
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							-->
 						{% endif %}
 					</div>
 				</section>
