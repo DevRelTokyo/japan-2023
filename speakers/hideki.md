@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/hideki/
-title: 小島　英揮@Still Day One 合同会社
+title: 小島 英揮@Still Day One 合同会社
 ogp: /japan-2023/image/ogp/hideki.jpg
 type: speaker
 id: hideki

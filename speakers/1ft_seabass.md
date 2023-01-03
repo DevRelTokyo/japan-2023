@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/1ft_seabass/
-title: 田中正吾@ワンフットシーバス
+title: 田中 正吾@ワンフットシーバス
 ogp: /japan-2023/image/ogp/1ft_seabass.jpg
 type: speaker
 id: 1ft_seabass

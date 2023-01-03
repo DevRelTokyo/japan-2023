@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/kurotaky/
-title: 黒瀧悠太@GMOペパボ株式会社
+title: 黒瀧 悠太@GMOペパボ株式会社
 ogp: /japan-2023/image/ogp/kurotaky.jpg
 type: speaker
 id: kurotaky

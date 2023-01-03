@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/ryoo_aki/
-title: 秋元　良太@Jagu'e'r
+title: 秋元 良太@Jagu'e'r
 ogp: /japan-2023/image/ogp/ryoo_aki.jpg
 type: speaker
 id: ryoo_aki

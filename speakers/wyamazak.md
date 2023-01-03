@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/wyamazak/
-title: 山崎　亘@セゾン情報システムズ
+title: 山崎 亘@セゾン情報システムズ
 ogp: /japan-2023/image/ogp/wyamazak.jpg
 type: speaker
 id: wyamazak
