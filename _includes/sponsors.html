@@ -6,15 +6,17 @@
 	<div class="container">
 		<div class="row row-cols-xl-5 row-cols-md-3 row-cols-2">
 			{% for sponsor in site.data.sponsors %}
-				<div class="col wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="0.5s">
-					<div class="brand-box-layout1">
-						<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
-							<img src="{{ sponsor.image }}" alt="Brand">
-							<div class="text-center" style="background-color: white;">{{ sponsor.name_ja }}</div>
-						</a>
-						<div class="text-center" style="background-color: white;">{{ sponsor.label_ja }}パートナー</div>
+				{% if sponsor.type != 'personal' %}
+					<div class="col wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="0.5s">
+						<div class="brand-box-layout1">
+							<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
+								<img src="{{ sponsor.image }}" alt="Brand">
+								<div class="text-center" style="background-color: white;">{{ sponsor.name_ja }}</div>
+							</a>
+							<div class="text-center" style="background-color: white;">{{ sponsor.label_ja }}パートナー</div>
+						</div>
 					</div>
-				</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>
