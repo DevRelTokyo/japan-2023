@@ -49,8 +49,10 @@ permalink: /kidsroom/
 - 発熱や怪我、病気の場合には利用できない可能性があります。
 - 持病により、承れない可能性があります。
 
-### お申し込み
+### お申し込み/お問い合わせ
 
 お申し込みはフォームよりお願いします（お申し込み時には、connpassのIDを記述してください）。空き状況の事前確認やご質問もフォームよりお気軽にどうぞ。
 
-[キッズルームについてのお問い合わせ/申し込み]({{ site.baseurl }}/contact/?category=kidsroom)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZXAkeqErsesL77WbqYwRXLwe1-fIzUv6MTlbeIcJD25TMiw/viewform?embedded=true" width="640" height="1375" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
+事前のお問い合わせは[キッズルームについてのお問い合わせ/申し込み]({{ site.baseurl }}/contact/?category=kidsroom)よりお願いします。
