@@ -15,22 +15,22 @@
 			<ul>
 				{% if speaker.facebook != '' %}
 					<li class="facebook">
-						<a target="_blank" href="{{ speaker.facebook }}"><i class="fab fa-facebook-f"></i></a>
+						<a target="_blank" href="https://www.facebook.com/{{ speaker.facebook }}"><i class="fab fa-facebook-f"></i></a>
 					</li>
 				{% endif %}
 				{% if speaker.twitter != '' %}
 					<li class="twitter">
-						<a target="_blank" href="{{ speaker.twitter }}"><i class="fab fa-twitter"></i></a>
+						<a target="_blank" href="https://twitter.com/{{ speaker.twitter }}"><i class="fab fa-twitter"></i></a>
 					</li>
 				{% endif %}
 				{% if speaker.instagram != '' %}
 					<li class="instagram">
-						<a target="_blank" href="{{ speaker.instagram }}"><i class="fab fa-instagram"></i></a>
+						<a target="_blank" href="https://www.instagram.com/{{ speaker.instagram }}"><i class="fab fa-instagram"></i></a>
 					</li>
 				{% endif %}
 				{% if speaker.linkedin != '' %}
 					<li class="linkedin">
-						<a target="_blank" href="{{ speaker.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+						<a target="_blank" href="https://www.linkedin.com/in/{{ speaker.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
 					</li>
 				{% endif %}
 			</ul>
