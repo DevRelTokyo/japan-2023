@@ -4,7 +4,7 @@ $(() => {
 	if (category) {
 		$('[name="category"]').val([category]);
 	}
-	$('form#contact').on('submit', async e => {
+	$('form#sponsor').on('submit', async e => {
 		e.preventDefault();
 		const form = $(e.target);
 		const params = {};
