@@ -28,7 +28,7 @@
 		</div>
 		<div class="row" style="padding-bottom: 2em">
 			{% assign sponsors = site.data.sponsors | where: "type", "personal" %}
-			{% for sponsor in site.data.sponsors %}
+			{% for sponsor in sponsors %}
 				<div class="col-3" style="color: white;">
 					{{ sponsor.name_ja }}
 				</div>
