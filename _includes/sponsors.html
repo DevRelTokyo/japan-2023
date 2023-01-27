@@ -4,9 +4,11 @@
 		<h2 class="title" style="color: white;">スポンサー</h2>
 	</div>
 	<div class="container">
-		<div class="row">
-			{% for sponsor in site.data.sponsors %}
-				{% if sponsor.type != 'personal' %}
+		{% assign sizes = "6,4,3,2" | split: "," %}
+		{% for size in sizes %}
+			<div class="row justify-content-center">
+				{% assign sponsors = site.data.sponsors | where: "size", size %}
+				{% for sponsor in sponsors %}
 					<div class="col-{{ sponsor.size }} wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="0.5s">
 						<div class="brand-box-layout1">
 							<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
@@ -16,21 +18,20 @@
 							<div class="text-center" style="background-color: white;">{{ sponsor.label_ja }}パートナー</div>
 						</div>
 					</div>
-				{% endif %}
-			{% endfor %}
-		</div>
+				{% endfor %}
+			</div>
+		{% endfor %}
 		<div class="row">
 			<div class="section-heading">
 				<h2 class="title" style="color: white;">個人スポンサー</h2>
 			</div>
 		</div>
 		<div class="row" style="padding-bottom: 2em">
+			{% assign sponsors = site.data.sponsors | where: "type", "personal" %}
 			{% for sponsor in site.data.sponsors %}
-				{% if sponsor.type == 'personal' %}
-					<div class="col-3" style="color: white;">
-						{{ sponsor.name_ja }}
-					</div>
-				{% endif %}
+				<div class="col-3" style="color: white;">
+					{{ sponsor.name_ja }}
+				</div>
 			{% endfor %}
 		</div>
 	</div>
