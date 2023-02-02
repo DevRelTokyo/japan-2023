@@ -21,7 +21,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/takuo.jpg"
   },
   {
     "id": "hideki",
@@ -45,7 +46,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/hideki.jpg"
   },
   {
     "id": "yoshie",
@@ -69,7 +71,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/yoshie.jpg"
   },
   {
     "id": "jun",
@@ -93,7 +96,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/jun.jpg"
   },
   {
     "id": "ariaki4dev",
@@ -117,7 +121,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/ariaki4dev.jpg"
   },
   {
     "id": "goofmint",
@@ -136,12 +141,13 @@
     "web": "",
     "instagram": "goofmint",
     "profile_en": "",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/SZJB-jG8RVw",
     "photo": "https://drive.google.com/uc?id=1HJ69DXZJSi39ilIOyQj3tKJetsClzuS0",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/goofmint.jpg"
   },
   {
     "id": "1ft_seabass",
@@ -165,7 +171,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/1ft_seabass.jpg"
   },
   {
     "id": "nabemasat",
@@ -189,7 +196,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/nabemasat.jpg"
   },
   {
     "id": "beppu01",
@@ -213,7 +221,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/beppu01.jpg"
   },
   {
     "id": "ryoo_aki",
@@ -237,7 +246,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/ryoo_aki.jpg"
   },
   {
     "id": "tmassh",
@@ -261,7 +271,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/tmassh.jpg"
   },
   {
     "id": "wyamazak",
@@ -285,7 +296,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/wyamazak.jpg"
   },
   {
     "id": "odashoDotCom",
@@ -304,12 +316,13 @@
     "web": "",
     "instagram": "odasho0618",
     "profile_en": "",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/1tp7GGQTlVY",
     "photo": "https://drive.google.com/uc?id=1qPA5WIOa7JhGgyouYS01hAa9tmuQbmNo",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/odashoDotCom.jpg"
   },
   {
     "id": "shosuz",
@@ -333,7 +346,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/shosuz.jpg"
   },
   {
     "id": "kurotaky",
@@ -357,7 +371,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/kurotaky.jpg"
   },
   {
     "id": "saku_238",
@@ -381,7 +396,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/saku_238.jpg"
   },
   {
     "id": "hcrane14",
@@ -400,12 +416,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/EPuFPMvGM0g",
     "photo": "https://drive.google.com/uc?id=1rkh2bRV4EAqBSIVfd1JG22sFjotVV9ky",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/hcrane14.jpg"
   },
   {
     "id": "_katsumi",
@@ -429,7 +446,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/_katsumi.jpg"
   },
   {
     "id": "Yfuru2454",
@@ -453,7 +471,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/Yfuru2454.jpg"
   },
   {
     "id": "gingy_love",
@@ -465,19 +484,20 @@
     "title_ja": "Tech Community Manager",
     "title_en": "Tech Community Manager",
     "twitter": "gingy_love",
-    "profile_ja": "Community builders conference 2022 講演、社内コミュニティを巻き込むツールとしての教育プロジェクト \nhttps://www.youtube.com/watch?v=AWkQPuK0Bf0&t=290s\n\nEuroPython 2022 と PyCon SK 2022 で、開発者のパーソナルブランドと、私たちの開発者コミュニティプロジェクトについて、いくつかLTをしました \nhttps://www.youtube.com/watch?v=QAsWdqj690M&t=1742s\n\n私は通常、CZのローカルミートアップで実施している技術コミュニティプロジェクトについて話しています。\nまた、DevRelCon Pragueでスピーカーをしました。\nhttps://prague-2022.devrelcon.dev/",
+    "profile_ja": "アレナは、チェコ共和国に本社を置く世界有数のトラベルテック企業、Kiwi.comのテックコミュニティマネージャーです。Kiwi.comでは、社内技術コミュニティであるCode.kiwi.comの運営に携わっています。彼女の使命は、エンジニアリング部門の市民が、あらゆる関連プラットフォームで技術ストーリーを共有するのをサポートすることです。\n\nアレナは、Twitterで大人気の2匹の猫と一緒にプラハに住んでいます（#gingythecatをチェック）。技術コミュニティの構築に情熱を傾ける一方で、パンクロックとクラフトビールの大ファンでもあります。",
     "facebook": "Community builders conference 2022, talk Educational projects as a tool to engage your internal community \nLink: https://www.youtube.com/watch?v=AWkQPuK0Bf0&t=290s\nI had a few lightnings on personal brand of developers, and our devs community projects at EuroPython 2022 and PyCon SK 2022 Link: https://www.youtube.com/watch?v=QAsWdqj690M&t=1742s\nI am usually talking about tech community projects that we're running at local meetups in CZ.\nI am also a speaker at DevRelCon Prague. https://prague-2022.devrelcon.dev/",
     "github": "kiwicom",
     "linkedin": "alena-osipova-953b8b169",
     "web": "",
     "instagram": "llamakarl",
-    "profile_en": "Community builders conference 2022, talk Educational projects as a tool to engage your internal community \r\nLink: https://www.youtube.com/watch?v=AWkQPuK0Bf0&t=290s\r\nI had a few lightnings on personal brand of developers, and our devs community projects at EuroPython 2022 and PyCon SK 2022 Link: https://www.youtube.com/watch?v=QAsWdqj690M&t=1742s\r\nI am usually talking about tech community projects that we're running at local meetups in CZ.\r\nI am also a speaker at DevRelCon Prague. https://prague-2022.devrelcon.dev/",
+    "profile_en": "Alena is Tech Community Manager at Kiwi.com – a leading global travel tech company headquartered in the Czech Republic. At Kiwi.com she manages the internal tech community – Code.kiwi.com. Her mission is to support citizens of the Engineering Department in sharing their tech stories on all relevant platforms.\n\nAlena lives in Prague with her two extremely-popular-on-Twitter cats (check out #gingythecat). Apart from having a passion for tech community building, she is a big fan of punk rock and craft beer.",
     "interview_url": "",
     "photo": "https://drive.google.com/uc?id=1rD5GziSaQto34RPr3azJDXD5cu1bIZZh",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": "要対応"
+    "visa": "要対応",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/gingy_love.jpg"
   },
   {
     "id": "Nick_smallworld",
@@ -496,12 +516,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "・ Product Manager and Developer Relation, Developer Advocate of the Web CMS system used by more than 50% of Nikkei 225 companies and over 100,000 users in Japan\n・ Developer marketing on the platform business of one of Japan's leading SaaS companies used by 380,000 offices.\n\nAfter working in the game industry (13 years), worked in the mobile / internet industry (18 years). Having great expertise in developer marketing / developer advocate and sales engineering.\n\nAWS Solution Architect Associate / Microsoft Certfied Professional(Azure)",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/8VN1X9EnaBA",
     "photo": "https://drive.google.com/uc?id=1Do0FqaI-9Shl8N_Zi7Qsic7mG8VfzEpd",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/Nick_smallworld.jpg"
   },
   {
     "id": "palindromeotter",
@@ -520,12 +541,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "Hannah Ouellette is the Sr. OSS Community Manager for NGINX, part of F5 Inc. They discovered their passion for OSS community at Kong before serving as technical community manager at Postman. They believe that Diversity, Equity, Inclusion & Belonging are crucial to a healthy community. When they're not in front of their computer, they can be found jumping horses and fostering equestrian community. ",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/Kpo09l9eQ8c",
     "photo": "https://drive.google.com/uc?id=1oQPSS6F5jMHYxguIoBMwjClYiW2hKun-",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/palindromeotter.jpg"
   },
   {
     "id": "KimMaida",
@@ -549,7 +571,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/KimMaida.jpg"
   },
   {
     "id": "adityaoberai1",
@@ -568,12 +591,13 @@
     "web": "",
     "instagram": "adityaoberai1",
     "profile_en": "Aditya Oberai is a Developer Advocate at Appwrite and an avid tech community and hackathon enthusiast. Having worked with various technologies such as .NET, Microsoft Azure, etc., he has spent the last 3 years empowering student and tech communities and is currently active as a Microsoft MVP and Twilio Champion.\r\n\r\nAditya was awarded the Azure Heroes \"Community Hero\" and \"AI Ambassador\" Digital Badgers by Microsoft and is a member of the .NET Foundation. He was the National Winner in the Education category at Microsoft Imagine Cup 2021 India Chapter and has been named among Major League Hacking's Top 50 hackers of 2021. Aditya co-organized (arguably) the largest student-led digital hackathon in India, HackOn 2.0. He currently contributes as a Developer Evangelist/Advocate Advisory Board member at DevNetwork.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/tTMEEz6Pzb8",
     "photo": "https://drive.google.com/uc?id=1jTIsUiGcRW42J2_VirkeESrMcW7oDHJf",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/adityaoberai1.jpg"
   },
   {
     "id": "dtaivpp",
@@ -597,7 +621,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/dtaivpp.jpg"
   },
   {
     "id": "tekoizumi",
@@ -621,7 +646,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://devrel.tokyo/japan-2023/image/ogp/tekoizumi.jpg"
   },
   {
     "id": "sng08",
@@ -645,7 +671,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/sng08.jpg"
   },
   {
     "id": "joel__lord",
@@ -664,12 +691,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "Joel Lord (@joel__lord on Twitter) is passionate about the web and technology in general. He likes to learn new things, but most of all, he wants to share his discoveries. He does so by travelling at various conferences all across the globe. He graduated from college in computer programming in the last millennium. Apart from a little break to get his BSc in computational astrophysics, he was always in the industry.\r\n\r\nIn his daily job, Joel is a developer advocate with MongoDB, where he connects with software engineers to help them improve the web by sharing the best software development practices. During his free time, he can be found stargazing on a campground somewhere or brewing a fresh batch of beer in his garage.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/gTbFOvSSO6E",
     "photo": "https://drive.google.com/uc?id=1GBGD5rIf8oMppSkJ65X0cNUUToFiKD75",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/joel__lord.jpg"
   },
   {
     "id": "realwasmedge",
@@ -688,12 +716,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "I have been working as the DevRel Advocate for 3 years at Second State, creator of open source CNCF sandbox project, WasmEdge, which brings cloud-native and serverless application paradigms to edge computing. I have a strong background in technology and leadership. Prior to this role, I served as the product manager at the VC-funded startup 5miles, where I supported the team as they grew the platform to 15 million registered users in the United States. Before transitioning to the tech industry, I spent 3 years as a Software Testing Engineer on banking operations at the Agricultural Bank of China, where I began my career as a clerk.\r\n\r\nWith my diverse professional background and experience in both traditional and tech-focused industries, I am well-equipped to serve as the DevRel Advocate of WasmEdge runtime at the DevRel Conference. I look forward to sharing my insights and discussing the latest trends and developments in the field with my fellow attendees.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/OSAVUlGbPmA",
     "photo": "https://drive.google.com/uc?id=1gPtCdA-ZLModryWsT_tfPqrqXyZm51vV",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/realwasmedge.jpg"
   },
   {
     "id": "ryoo_aki_con",
@@ -712,12 +741,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "Jagu'e'r Evangelist and Jagu'e'r Leader. Jagu'e'r stands for ‘Japan Google Cloud User-Group for Enterprise’, which has a huge impact on his career. Currently he works in Accenture Japan. ",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/Kuf00iXRSsI",
     "photo": "https://drive.google.com/uc?id=1Z1_KQvLkRAxuytHVh84Q5wJqQbrrOC0W",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/ryoo_aki_con.jpg"
   },
   {
     "id": "tmassh_con",
@@ -741,7 +771,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/tmassh_con.jpg"
   },
   {
     "id": "avolakatos",
@@ -760,12 +791,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "As the CTO for the Interledger Foundation, Alex focuses on lowering the barrier to entry into the Interledger ecosystem and driving the adoption of the web standards powering the Interledger protocol. With a background in web technologies and developer advocacy, he's helping Interledger build developer-friendly products while engaging with the developer community at large. An avid traveler, it's likely you'll bump into him at developer conferences around the world.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/ZejaNMUSgcI",
     "photo": "https://drive.google.com/uc?id=1-h3g8yZOAxNRnNWupFcjooL-oo-0hNDS",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/avolakatos.jpg"
   },
   {
     "id": "1ft_seabass_con",
@@ -789,7 +821,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/1ft_seabass_con.jpg"
   },
   {
     "id": "CipcicMarijan",
@@ -809,11 +842,12 @@
     "instagram": "marijancipcic",
     "profile_en": "Marijan works as a Tech Community Manager at Infobip leading developer initiatives of this company in Africa. Although he holds a Ph.D. in history and worked for several years in Museum as a curator, he is engaged in various tech initiatives in Croatia. He is a Co-founder of the Green Future Conference, an annual international conference in the domain of sustainability and green transition. He is also a Board Member of CroAI - Croatian Artificial Intelligence Association. ",
     "interview_url": "",
-    "photo": "https://drive.google.com/uc?id=1iVygHq-JwnxWz5jC0pqlZ0cmebg7xthW",
+    "photo": "https://drive.google.com/uc?id=1Zqbe7V4ATI623tC0QJNp1-KzJGuMg-f_",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": "不要"
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/CipcicMarijan.jpg"
   },
   {
     "id": "kaiwalya_",
@@ -837,7 +871,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/kaiwalya_.jpg"
   },
   {
     "id": "juliadoesthat",
@@ -861,7 +896,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/juliadoesthat.jpg"
   },
   {
     "id": "dianasoyster",
@@ -885,7 +921,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/dianasoyster.jpg"
   },
   {
     "id": "siddharth_hacks",
@@ -909,7 +946,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": "必要"
+    "visa": "必要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/siddharth_hacks.jpg"
   },
   {
     "id": "harshitajain561",
@@ -933,7 +971,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/harshitajain561.jpg"
   },
   {
     "id": "RabbiGreenberg",
@@ -957,7 +996,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": "不要"
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/RabbiGreenberg.jpg"
   },
   {
     "id": "CarlaAtGG",
@@ -981,7 +1021,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/CarlaAtGG.jpg"
   },
   {
     "id": "jdamic",
@@ -1005,7 +1046,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/jdamic.jpg"
   },
   {
     "id": "salihgueler",
@@ -1029,7 +1071,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/salihgueler.jpg"
   },
   {
     "id": "carolinelewko",
@@ -1053,31 +1096,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
-  },
-  {
-    "id": "sugaroverflow",
-    "conference": "con",
-    "name_ja": "Fatima Sarah Khalid",
-    "name_en": "Fatima Sarah Khalid",
-    "company_ja": "GitLab",
-    "company_en": "GitLab",
-    "title_ja": "Developer Evangelist",
-    "title_en": "Developer Evangelist",
-    "twitter": "sugaroverflow",
-    "profile_ja": "FatimaはGitLabのデベロッパーエバンジェリストであり、コミュニティの代弁者です。コーディングに挑戦することと、ストーリーを語ることが大好きです。GitLab以前は、バックエンドデベロッパーとDrupalコアコントリビューター、メンタリングリードとして活躍してきました。2018年には、教育やアドボカシーへの取り組みが評価され、Women in Communications & Technology (WCT) Rising Star leadership awardを受賞しました。ボードゲームをしたり、脱出ルームを攻略したり、友人と協力型冒険をしていないときは、海のそばで読書をしているファティマの姿を見ることができます。",
-    "facebook": "",
-    "github": "",
-    "linkedin": "sugaroverflow",
-    "web": "",
-    "instagram": "",
-    "profile_en": "Fatima is a Developer Evangelist at GitLab and the voice of the community. She loves coding challenges and storytelling. Before GitLab, she has been a backend developer and Drupal core contributor, and mentoring lead. In 2018, she received the Women in Communications & Technology (WCT) Rising Star leadership award for her efforts in teaching and advocacy. When she's not playing board games, beating escape rooms, or playing co-op adventures with friends, you can find Fatima reading by the ocean.",
-    "interview_url": "",
-    "photo": "https://drive.google.com/uc?id=1-H-sxnjwcuGKc7i7mp_2ncZnb9it-pbd",
-    "session_title_ja": "",
-    "session_detail_ja": "",
-    "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/carolinelewko.jpg"
   },
   {
     "id": "HaimantikaM",
@@ -1101,7 +1121,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/HaimantikaM.jpg"
   },
   {
     "id": "ayatokura",
@@ -1125,7 +1146,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/ayatokura.jpg"
   },
   {
     "id": "cheukting_ho",
@@ -1144,12 +1166,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "After having a career in data science, Cheuk brought her knowledge of data and passion for the tech community as one of the first developer advocates for Anaconda. Cheuk has been speaking at multiple events per month. Cheuk also organises events which provide free data science education and encourage diverse contributions to open-source.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/8BOWLq96A44",
     "photo": "https://drive.google.com/uc?id=1TlX6EleCYBXwazPfxqSLWDLrdo7VHeyp",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/cheukting_ho.jpg"
   },
   {
     "id": "elijah_zupancic",
@@ -1168,12 +1191,13 @@
     "web": "",
     "instagram": "",
     "profile_en": "Elijah Zupancic currently works as the director of Research for NGINX. He has experience as a software engineer, architect, manager, and executive. Elijah has been leading software teams in architectural design, product development, and holistic improvement for over ten years. He loves to geek out about infrastructure, architecture, application composition, service design, and the psychology of making real-world applications work.",
-    "interview_url": "",
+    "interview_url": "https://youtu.be/VYRaoKNu-9c",
     "photo": "https://drive.google.com/uc?id=1oDP0tTbHrKAxHpeXaNpnjCNS7OuD9pdE",
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/elijah_zupancic.jpg"
   },
   {
     "id": "mustafasaifee_",
@@ -1197,7 +1221,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/mustafasaifee_.jpg"
   },
   {
     "id": "wawasensei",
@@ -1221,7 +1246,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/wawasensei.jpg"
   },
   {
     "id": "javabster",
@@ -1245,7 +1271,8 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/javabster.jpg"
   },
   {
     "id": "harshil1712",
@@ -1269,6 +1296,32 @@
     "session_title_ja": "",
     "session_detail_ja": "",
     "session_level": "",
-    "visa": ""
+    "visa": "必要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/harshil1712.jpg"
+  },
+  {
+    "id": "virtualized6ix",
+    "conference": "con",
+    "name_ja": "Marino Wijay",
+    "name_en": "Marino Wijay",
+    "company_ja": "Solo.io",
+    "company_en": "Solo.io",
+    "title_ja": "Developer Advocate",
+    "title_en": "Developer Advocate",
+    "twitter": "virtualized6ix",
+    "profile_ja": "MarinoはSolo.ioのデベロッパーリレーションズ＆アドボカシーチームを率いています。テクノロジーとモダンな分散システムに情熱を傾けています。彼は常にネットワーキングのパターンと OSI の方法に立ち戻ります。彼のキャリアは主にデータセンターとクラウドネットワーキングに集中しており、Kubernetesとその周辺のエコシステムの世界にもっと時間を費やすようになりました。コミュニティ構築は彼の原動力であり、現代のジェダイ・アカデミーのようなものです。カナダ人であり、父親であり、夫であり、料理、旅行、そして愛犬エンゾとの時間を楽しんでいます。",
+    "facebook": "",
+    "github": "distributethe6ix",
+    "linkedin": "mwijay/",
+    "web": "",
+    "instagram": "",
+    "profile_en": "Marino leads the Developer Relations and Advocacy team at Solo.io. He is passionate about technology and modern distributed systems. He will always fall back to the patterns of Networking and the ways of the OSI. His career has been primarily focused on Data Center and Cloud Networking which drove him to spend more time in the world of Kubernetes and the surrounding ecosystem. Community building is his driving force; A modern Jedi Academy. He is a Canadian, father, a husband, and enjoys cooking, traveling, and spending time with his doggo, Enzo.",
+    "interview_url": "",
+    "photo": "https://drive.google.com/uc?id=1QvAs8UEpOoPEfZJcHHvFnPo6YxZHRhUE",
+    "session_title_ja": "",
+    "session_detail_ja": "",
+    "session_level": "",
+    "visa": "不要",
+    "ogp": "https://yokohama-2023.devrelcon.dev/assets/images/ogp/virtualized6ix.jpg"
   }
 ]

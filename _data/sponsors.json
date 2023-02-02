@@ -12,6 +12,30 @@
     "size": "4"
   },
   {
+    "id": "linux",
+    "type": "booth",
+    "label_ja": "ブース",
+    "label_en": "Booth",
+    "name_ja": "ザ リナックス ファウンデーション",
+    "name_en": "The Linux Foundation",
+    "url_ja": "https://training.linuxfoundation.org/ja/",
+    "url_en": "https://training.linuxfoundation.org/",
+    "image": "https://drive.google.com/uc?id=1TWZSBmi4zHCdWV_vbDf7eYoeywX8u4iX",
+    "size": "4"
+  },
+  {
+    "id": "findy",
+    "type": "booth",
+    "label_ja": "ブース",
+    "label_en": "Booth",
+    "name_ja": "ファインディ株式会社",
+    "name_en": "Findy Inc.",
+    "url_ja": "https://findy.co.jp/",
+    "url_en": "https://findy-jobs.io/",
+    "image": "https://drive.google.com/uc?id=1INme9CFUBv5GMH-vSoeXvz5Za8HSqIPj",
+    "size": "4"
+  },
+  {
     "id": "people",
     "type": "hiring",
     "label_ja": "ハイアリング",
@@ -34,6 +58,42 @@
     "url_en": "https://api-info.ekispert.com/",
     "image": "https://drive.google.com/uc?id=1QEpMmOJ11VZ3cLcppMDO844mj22pGCIm",
     "size": "3"
+  },
+  {
+    "id": "codezine",
+    "type": "media",
+    "label_ja": "メディア",
+    "label_en": "Media",
+    "name_ja": "CodeZine",
+    "name_en": "CodeZine",
+    "url_ja": "https://codezine.jp",
+    "url_en": "https://codezine.jp",
+    "image": "https://drive.google.com/uc?id=1Ybp0CWF2Fm98gf98IEUiqwUIdfLaRMfc",
+    "size": "2"
+  },
+  {
+    "id": "thinkit",
+    "type": "media",
+    "label_ja": "メディア",
+    "label_en": "Media",
+    "name_ja": "ThinkIT",
+    "name_en": "ThinkIT",
+    "url_ja": "https://thinkit.co.jp/",
+    "url_en": "https://thinkit.co.jp/",
+    "image": "https://drive.google.com/uc?id=12p82LVMg-yPvZgM7JJXcJoF6K5tLx7Rm",
+    "size": "2"
+  },
+  {
+    "id": "techfeed",
+    "type": "media",
+    "label_ja": "メディア",
+    "label_en": "Media",
+    "name_ja": "TechFeed",
+    "name_en": "TechFeed",
+    "url_ja": "https://techfeed.io/",
+    "url_en": "https://techfeed.io/",
+    "image": "https://drive.google.com/uc?id=1C5CJT-lLt5bwUwIjZ6Tz9Kz-wg2jkO_t",
+    "size": "2"
   },
   {
     "id": "ayatokura",
@@ -72,27 +132,15 @@
     "size": ""
   },
   {
-    "id": "codezine",
-    "type": "media",
-    "label_ja": "メディア",
-    "label_en": "Media",
-    "name_ja": "CodeZine",
-    "name_en": "CodeZine",
-    "url_ja": "https://codezine.jp",
-    "url_en": "https://codezine.jp",
-    "image": "https://drive.google.com/uc?id=1Ybp0CWF2Fm98gf98IEUiqwUIdfLaRMfc",
-    "size": "2"
-  },
-  {
-    "id": "thinkit",
-    "type": "media",
-    "label_ja": "メディア",
-    "label_en": "Media",
-    "name_ja": "ThinkIT",
-    "name_en": "ThinkIT",
-    "url_ja": "https://thinkit.co.jp/",
-    "url_en": "https://thinkit.co.jp/",
-    "image": "https://drive.google.com/uc?id=12p82LVMg-yPvZgM7JJXcJoF6K5tLx7Rm",
-    "size": "2"
+    "id": "tomoaki",
+    "type": "personal",
+    "label_ja": "個人",
+    "label_en": "personal",
+    "name_ja": "Tomoaki Sekiya ",
+    "name_en": "Tomoaki Sekiya ",
+    "url_ja": "",
+    "url_en": "",
+    "image": "",
+    "size": ""
   }
 ]
