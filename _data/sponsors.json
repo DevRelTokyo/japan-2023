@@ -192,6 +192,18 @@
     "size": ""
   },
   {
+    "id": "hiraoka",
+    "type": "personal",
+    "label_ja": "個人",
+    "label_en": "personal",
+    "name_ja": "Daisuke Hiraoka",
+    "name_en": "Daisuke Hiraoka",
+    "url_ja": "",
+    "url_en": "",
+    "image": "",
+    "size": ""
+  },
+  {
     "id": "jbug",
     "type": "community",
     "label_ja": "コミュニティ",
