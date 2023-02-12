@@ -38,10 +38,12 @@
     -------------------------------------*/
     $(window).on('load', addNewClass);
 
-    function addNewClass() {
-        $('body').imagesLoaded().done(function(instance) {
-            $('body').addClass('loaded');
-        });
+    async function addNewClass() {
+        try {
+            const instance = await $('body').imagesLoaded();
+        } catch (e) {
+        }
+        $('body').addClass('loaded');
     }
 
     /*-------------------------------------

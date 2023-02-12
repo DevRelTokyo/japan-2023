@@ -6,63 +6,40 @@
 			<div class="sub-title">最新のお知らせをお届けします</div>
 		</div>
 		<div class="row">
-			<!--
-			<div class="col-lg-6 wow fadeInUp animated" data-wow-delay="0.1s" data-wow-duration="0.4s">
-				<div class="blog-box-layout2 item-big">
-					<div class="figure-box">
-						<a href="blog-single.html" class="link-wrap"><img src="image/blog/blog-figure-4.jpg" alt="blog" width="839" height="766"></a>
-					</div>
-					<div class="entry-date">16<span>Jun</span></div>
-					<div class="content-box">
-						<div class="entry-meta mb-1">
-							<ul>
-								<li><a href="blog-single.html"><i class="far fa-user"></i>Jenny Wilson</a></li>
-								<li><a href="blog-single.html"><i class="fas fa-tags"></i>Technology</a></li>
-							</ul>
+			{% for article in site.data.blog.items %}
+				<div class="col-lg-6 wow fadeInUp animated" data-wow-delay="0.1s" data-wow-duration="0.4s">
+					<div class="blog-box-layout2 item-big">
+						<div class="figure-box">
+							<a href="{{ article.link }}" class="link-wrap" target="_blank">
+								<img src="{{ article.enclosures[0].url }}" alt="blog" width="839" height="766">
+							</a>
 						</div>
-						<h3 class="entry-title"><a href="blog-single.html">Chances are Good that there’s a Cloud this
-								Software..</a></h3>
-						<p class="entry-description">Lorem ipsum dolor sit amet consectetur is purus
-							amet luctus venenatis.</p>
-						<a href="blog-single.html" class="btn-text style-one">READ MORE</a>
+						<div class="entry-date">
+							{{ article.month }}月<span>{{ article.day }}日</span>
+						</div>
+						<div class="content-box">
+							<div class="entry-meta mb-1">
+								<ul>
+									<li><a href="https://zenn.dev/{{ article.author }}" target="_blank"><i class="far fa-user"></i>{{ article.author }}</a></li>
+								</ul>
+							</div>
+							<!--
+							<h3 class="entry-title">
+								<a href="{{ article.link }}">{{ article.title }}</a></h3>
+							-->
+							<p class="entry-description">
+								{{ article.description | truncate: 100 }}
+							</p>
+							<a href="{{ article.link }}" target="_blank" class="btn-text style-one">もっと読む</a>
+						</div>
 					</div>
 				</div>
+			{% endfor %}
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<a href="https://zenn.dev/p/devrel" class="btn-fill style-four" target="_blank">ブログを見る</a>
 			</div>
-			<div class="col-lg-6">
-				<div class="blog-box-layout2 wow fadeInUp animated" data-wow-delay="0.3s" data-wow-duration="0.4s">
-					<div class="figure-box">
-						<a href="blog-single.html" class="link-wrap"><img src="image/blog/blog-figure-5.jpg" alt="blog" width="837" height="361"></a>
-					</div>
-					<div class="entry-date">23<span>Jun</span></div>
-					<div class="content-box">
-						<div class="entry-meta mb-1">
-							<ul>
-								<li><a href="blog-single.html"><i class="far fa-user"></i>Jenny Wilson</a></li>
-								<li><a href="blog-single.html"><i class="fas fa-tags"></i>Technology</a></li>
-							</ul>
-						</div>
-						<h3 class="entry-title"><a href="blog-single.html">Many of those Products Offer the Off
-								Potential not just to...</a></h3>
-					</div>
-				</div>
-				<div class="blog-box-layout2 wow fadeInUp animated" data-wow-delay="0.5s" data-wow-duration="0.4s">
-					<div class="figure-box">
-						<a href="blog-single.html" class="link-wrap"><img src="image/blog/blog-figure-6.jpg" alt="blog" width="837" height="361"></a>
-					</div>
-					<div class="entry-date">29<span>Jun</span></div>
-					<div class="content-box">
-						<div class="entry-meta mb-1">
-							<ul>
-								<li><a href="blog-single.html"><i class="far fa-user"></i>Jenny Wilson</a></li>
-								<li><a href="blog-single.html"><i class="fas fa-tags"></i>Technology</a></li>
-							</ul>
-						</div>
-						<h3 class="entry-title"><a href="blog-single.html">Our Evaluation Services Focus on the
-								Providing Actionable</a></h3>
-					</div>
-				</div>
-			</div>
-			-->
 		</div>
 	</div>
 </section>
