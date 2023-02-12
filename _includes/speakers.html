@@ -5,11 +5,6 @@
 			<h2 class="title">スピーカー</h2>
 			<div class="sub-title">素晴らしいスピーカーの方々です。随時追加発表します。</div>
 		</div>
-		<div class="row" style="padding-bottom: 1rem;">
-			<a class="btn-fill style-two fadeInUp animated disabled">
-				CFP（プロポーザル）の提出は締め切りました
-			</a>
-		</div>
 		<div class="row speakers">
 			{% assign speakers = site.data.speakers | where: "conference", "japan" %}
 			{% for speaker in speakers %}

@@ -35,7 +35,27 @@
 			{% endfor %}
 		</div>
 	</div>
-	<div class="section-heading">
+	<div class="row">
+		<div class="section-heading">
+			<h2 class="title" style="color: white;">コミュニティフレンドシップ</h2>
+		</div>
+	</div>
+	<div class="row" style="padding-bottom: 2em">
+		{% assign communities = site.data.sponsors | where: "type", "community" %}
+		{% for sponsor in communities %}
+			<div class="col-2 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="0.5s">
+				<div class="brand-box-layout1">
+					<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
+						<img src="{{ sponsor.image }}" alt="Brand">
+						<div class="text-center" style="background-color: white;">{{ sponsor.name_ja }}</div>
+					</a>
+					<div class="text-center" style="background-color: white;">{{ sponsor.label_ja }}</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
+<div class="section-heading">
 		<h2 class="sub-title" style="color: white;">私たちのカンファレンスをサポートしてください！</h2>
 		<div class="text-center">
 			<a href="{{ site.baseurl }}/sponsor/" class="btn-fill style-four">スポンサーメニュー・詳細お問い合わせ</a>
