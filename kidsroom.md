@@ -2,7 +2,7 @@
 layout: page
 title: キッズルーム
 description: |-
-  DevRel/Japan CONFERENCE 2023では3月11日にキッズルームを提供します。<br />人数制限&申し込み期限がありますので、お早めにお申し込みください。<br />![](/japan-2023/image/kidsroom/kidsroom-2.jpg)
+  DevRel/Japan CONFERENCE 2023では3月11日にキッズルームを提供します。<br />子育て支援として、キッズルーム利用者にはカンファレンス<strong>無料チケットを提供</strong>します。<br />人数制限&申し込み期限がありますので、お早めにお申し込みください。<br />![](/japan-2023/image/kidsroom/kidsroom-2.jpg)
 permalink: /kidsroom/
 ---
 
