@@ -1,0 +1,13 @@
+{% for session in include.sessions %}
+	{% if session.first_speaker == "" %}
+		</ul>
+		<div class="section-heading" style="padding-top: 40px;">
+			<h3 class="title">
+				<i class="far fa-clock"></i>&nbsp;&nbsp;{{ session.start_time }} {{ session.title_ja }}
+			</h3>
+		</div>
+		<ul class="schedule-box-wrap-layout2">
+	{% else %}
+		{% include session.html session=session %}
+	{% endif %}
+{% endfor %}
