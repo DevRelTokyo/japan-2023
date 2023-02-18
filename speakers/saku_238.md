@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/saku_238/
-title: 櫻井 文矢@株式会社CARTA HOLDINGS
+title: 櫻井 文矢@CARTA HOLDINGS
 ogp: /japan-2023/image/ogp/saku_238.jpg
 type: speaker
 id: saku_238

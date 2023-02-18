@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/tekoizumi/
-title: 小泉 鉄之祐@デロイトトーマツコンサルティング合同会社
+title: 小泉 鉄之祐@デロイトトーマツコンサルティング
 ogp: /japan-2023/image/ogp/tekoizumi.jpg
 type: speaker
 id: tekoizumi

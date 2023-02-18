@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/katsumi/
-title: 高橋 克己@株式会社KDDIウェブコミュニケーションズ
+title: 高橋 克己@KDDIウェブコミュニケーションズ
 ogp: /japan-2023/image/ogp/katsumi.jpg
 type: speaker
 id: katsumi
