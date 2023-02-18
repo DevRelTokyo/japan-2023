@@ -13,9 +13,9 @@
 						<div class="brand-box-layout1" style="background-color: white; padding-top: 1em">
 							<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
 								<img src="{{ sponsor.image }}" alt="Brand">
-								<div class="text-center" style="background-color: white;">{{ sponsor.name_ja }}</div>
+								<div class="text-center" style="background-color: white; text-overflow: ellipsis;">{{ sponsor.name_ja }}</div>
 							</a>
-							<div class="text-center" style="background-color: white;">{{ sponsor.label_ja }}</div>
+							<div class="text-center" style="background-color: white; text-overflow: ellipsis;">{{ sponsor.label_ja }}</div>
 						</div>
 					</div>
 				{% endfor %}
@@ -47,17 +47,10 @@
 				<div class="brand-box-layout1">
 					<a href="{{ sponsor.url_ja }}" target="_blank" rel="noopener noreferrer">
 						<img src="{{ sponsor.image }}" alt="Brand">
-						<div class="text-center" style="background-color: white;">{{ sponsor.name_ja }}</div>
+						<div class="text-center" style="background-color: white; text-overflow: ellipsis;">{{ sponsor.name_ja }}</div>
 					</a>
 				</div>
 			</div>
 		{% endfor %}
-	</div>
-</div>
-<div class="section-heading">
-		<h2 class="sub-title" style="color: white;">私たちのカンファレンスをサポートしてください！</h2>
-		<div class="text-center">
-			<a href="{{ site.baseurl }}/sponsor/" class="btn-fill style-four">スポンサーメニュー・詳細お問い合わせ</a>
-		</div>
 	</div>
 </div>
