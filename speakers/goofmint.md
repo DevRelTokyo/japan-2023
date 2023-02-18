@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/goofmint/
-title: 中津川 篤司@株式会社MOONGIFT
+title: 中津川 篤司@MOONGIFT
 ogp: /japan-2023/image/ogp/goofmint.jpg
 type: speaker
 id: goofmint

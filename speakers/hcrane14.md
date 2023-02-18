@@ -1,7 +1,7 @@
 ---
 layout: person
 permalink: /speakers/hcrane14/
-title: 鶴田 啓@楽天グループ株式会社 ラクマ事業部
+title: 鶴田 啓@楽天グループ株式会社
 ogp: /japan-2023/image/ogp/hcrane14.jpg
 type: speaker
 id: hcrane14
