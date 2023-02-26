@@ -1,0 +1,35 @@
+<a name="jobs"></a>
+<div class="brand-wrap-layout2" style="background-color: white;">
+	<div class="section-heading">
+		<h2 class="title">ジョブボード</h2>
+	</div>
+	<div class="container">
+		{% for job in site.data.jobs %}
+			{% assign sponsor = site.data.sponsors | where: "id", job.company %}
+			{% assign sponsor = sponsor[0] %}
+			<div class="row">
+				<div class="col-2">
+					<a href="{{ job.url_ja }}" target="_blank" rel="noopener noreferrer">
+						<img src="{{ sponsor.image }}" alt="Brand" style="width: 100%;">
+					</a>
+				</div>
+				<div class="col-10">
+					<div class="row">
+						<div class="col-12">
+							<h4>
+								<a href="{{ job.url_ja }}" target="_blank" rel="noopener noreferrer">
+									{{ job.title_ja }}
+								</a>
+							</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p>{{ job.description_ja }}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>
