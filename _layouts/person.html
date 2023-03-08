@@ -79,18 +79,22 @@
 											</p>
 											<ul class="social">
 												{% if person.twitter != "" %}
+													{% assign twitter = person.twitter | replace: "http://twitter.com/", "" %}
 													<li>
-														<a target="_blank" href="{{ person.twitter }}" class="twitter"><i class="fab fa-twitter"></i></a>
+														<a target="_blank" href="http://twitter.com/{{ twitter }}" class="twitter"><i class="fab fa-twitter"></i></a>
 													</li>
 												{% endif %}
 												{% if person.facebook != "" %}
+													{% assign facebook = person.facebook | replace: "https://www.facebook.com/", "" %}
+													{% assign facebook = facebook | replace: "https://fb.me/", "" %}
 													<li>
-														<a target="_blank" href="{{ person.facebook }}" class="facebook"><i	class="fab fa-facebook-f"></i></a>
+														<a target="_blank" href="https://fb.me/{{ facebook }}" class="facebook"><i	class="fab fa-facebook-f"></i></a>
 													</li>
 												{% endif %}
 												{% if person.linkedin != "" %}
+													{% assign linkedin = person.linkedin | replace: "https://www.linkedin.com/in/", "" %}
 													<li>
-														<a target="_blank" href="{{ person.linkedin }}" class="linkedin"><i	class="fab fa-linkedin-in"></i></a>
+														<a target="_blank" href="https://www.linkedin.com/in/{{ linkedin }}" class="linkedin"><i	class="fab fa-linkedin-in"></i></a>
 													</li>
 												{% endif %}
 											</ul>
