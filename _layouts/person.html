@@ -97,6 +97,12 @@
 														<a target="_blank" href="https://www.linkedin.com/in/{{ linkedin }}" class="linkedin"><i	class="fab fa-linkedin-in"></i></a>
 													</li>
 												{% endif %}
+												{% if person.github != "" %}
+													{% assign github = person.github | replace: "https://github.com/", "" %}
+													<li>
+														<a target="_blank" href="https://github.com/{{ github }}" class="linkedin"><i	class="fab fa-github"></i></a>
+													</li>
+												{% endif %}
 											</ul>
 										</div>
 									</div>
