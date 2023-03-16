@@ -118,6 +118,13 @@
 							{% if session %}
 								<div class="speaker-single-event-wrap">
 									<h2 class="section-title">{{ person.name_ja }}さんのセッション情報</h2>
+									{% if session.material != "" %}
+										<div class="row">
+											<div class="col-lg-12 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
+												{{ session.material }}
+											</div>
+										</div>
+									{% endif %}
 									<div class="row">
 										<div class="col-lg-12 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
 											<div class="speaker-single-event-box">
